@@ -100,9 +100,9 @@ function statePriority(state: LetterState): number {
 
 export function getUnlockedHintCount(guessCount: number, gameOver: boolean): number {
   if (gameOver) return 3
-  if (guessCount >= 4) return 2
-  if (guessCount >= 2) return 1
-  return 0
+  if (guessCount >= 4) return 3
+  if (guessCount >= 2) return 2
+  return 1
 }
 
 export function censorWord(text: string, word: string): string {

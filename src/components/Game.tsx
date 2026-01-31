@@ -1,12 +1,18 @@
 import { useEffect, useCallback, useState } from 'react'
 import { useGame } from '../hooks/useGame'
-import { MAX_GUESSES } from '../lib/utils'
+import { MAX_GUESSES, type WordEntry } from '../lib/utils'
+import type { GameMode } from './App'
 import Grid from './Grid'
 import Keyboard from './Keyboard'
 import HintPanel from './HintPanel'
 import GameOver from './GameOver'
 
-export default function Game() {
+interface GameProps {
+  wordEntry: WordEntry
+  mode: GameMode
+}
+
+export default function Game({ wordEntry, mode }: GameProps) {
   const {
     todayWord,
     isDaily,
@@ -22,7 +28,7 @@ export default function Game() {
     submitGuess,
     generateShareText,
     startRandomGame,
-  } = useGame()
+  } = useGame(wordEntry, mode)
 
   const [showModal, setShowModal] = useState(false)
 

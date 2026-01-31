@@ -1,13 +1,15 @@
 import { useState, useEffect, useCallback } from 'react'
 import {
-  getTodayWord,
   getTodayKey,
-  getRandomWord,
   evaluateGuess,
+  encodeWordId,
+  getWordIndex,
   MAX_GUESSES,
+  getDayIndex,
   type WordEntry,
   type EvaluatedLetter,
 } from '../lib/utils'
+import type { GameMode } from '../components/App'
 
 export type GameStatus = 'playing' | 'won' | 'lost'
 
@@ -30,10 +32,8 @@ function saveState(key: string, state: SavedState) {
   localStorage.setItem(`urdle-${key}`, JSON.stringify(state))
 }
 
-export function useGame() {
-  const [wordEntry, setWordEntry] = useState<WordEntry>(getTodayWord)
-  const [isDaily, setIsDaily] = useState(true)
-
+export function useGame(wordEntry: WordEntry, mode: GameMode) {
+  const isDaily = mode === 'daily'
   const target = wordEntry.word.toLowerCase()
   const wordLength = target.length
   const dateKey = getTodayKey()
@@ -62,13 +62,8 @@ export function useGame() {
   }, [guesses, gameStatus, dateKey, isDaily])
 
   const startRandomGame = useCallback(() => {
-    const newWord = getRandomWord(wordEntry.word)
-    setWordEntry(newWord)
-    setIsDaily(false)
-    setGuesses([])
-    setCurrentGuess('')
-    setGameStatus('playing')
-  }, [wordEntry.word])
+    window.location.hash = '#/random'
+  }, [])
 
   const submitGuess = useCallback(() => {
     if (gameStatus !== 'playing') return
@@ -110,9 +105,12 @@ export function useGame() {
   )
 
   const generateShareText = useCallback(() => {
-    const dayIndex = Math.floor(
-      (new Date().setHours(0, 0, 0, 0) - new Date(2025, 0, 1).getTime()) / 86400000
-    )
+    const wordIdx = getWordIndex(wordEntry)
+    const encodedId = encodeWordId(wordIdx)
+    const shareUrl = `https://gisenberg.github.io/urdle/#/w/${encodedId}`
+
+    const dayIndex = getDayIndex()
+    const label = isDaily ? `Urdle #${dayIndex}` : 'Urdle'
     const score = gameStatus === 'won' ? `${guesses.length}/${MAX_GUESSES}` : `X/${MAX_GUESSES}`
     const grid = evaluatedGuesses
       .map((row) =>
@@ -128,8 +126,8 @@ export function useGame() {
           .join('')
       )
       .join('\n')
-    return `Urdle #${dayIndex} ${score}\n\n${grid}`
-  }, [evaluatedGuesses, guesses.length, gameStatus])
+    return `${label} ${score}\n\n${grid}\n\n${shareUrl}`
+  }, [evaluatedGuesses, guesses.length, gameStatus, wordEntry, isDaily])
 
   return {
     todayWord: wordEntry,

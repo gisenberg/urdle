@@ -111,3 +111,34 @@ export function censorWord(text: string, word: string): string {
 }
 
 export const MAX_GUESSES = 6
+
+// --- Routing utilities ---
+
+const XOR_KEY = 0x5A3C
+
+export function encodeWordId(index: number): string {
+  return (index ^ XOR_KEY).toString(36)
+}
+
+export function decodeWordId(id: string): number | null {
+  const num = parseInt(id, 36)
+  if (isNaN(num)) return null
+  const index = num ^ XOR_KEY
+  if (index < 0 || index >= words.length) return null
+  return index
+}
+
+export function getWordByIndex(index: number): WordEntry | null {
+  if (index < 0 || index >= words.length) return null
+  return words[index] as WordEntry
+}
+
+export function getWordIndex(entry: WordEntry): number {
+  return words.findIndex((w) => w.word === entry.word)
+}
+
+export function getWordByName(name: string): WordEntry | null {
+  const lower = name.toLowerCase()
+  const entry = words.find((w) => w.word.toLowerCase() === lower)
+  return (entry as WordEntry) ?? null
+}

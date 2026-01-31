@@ -29,6 +29,7 @@ export default function Game({ wordEntry, mode }: GameProps) {
     submitGuess,
     generateShareText,
     startRandomGame,
+    elapsedSeconds,
   } = useGame(wordEntry, mode)
 
   const [showModal, setShowModal] = useState(false)
@@ -102,6 +103,7 @@ export default function Game({ wordEntry, mode }: GameProps) {
         word={todayWord}
         guessCount={guesses.length}
         gameOver={gameOver}
+        elapsedSeconds={elapsedSeconds}
       />
 
       <Keyboard

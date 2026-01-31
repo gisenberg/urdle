@@ -155,10 +155,10 @@ function statePriority(state: LetterState): number {
   }
 }
 
-export function getUnlockedHintCount(guessCount: number, gameOver: boolean): number {
+export function getUnlockedHintCount(guessCount: number, gameOver: boolean, elapsedSeconds: number = 0): number {
   if (gameOver) return 3
-  if (guessCount >= 4) return 3
-  if (guessCount >= 2) return 2
+  if (guessCount >= 4 || elapsedSeconds >= 60) return 3
+  if (guessCount >= 2 || elapsedSeconds >= 30) return 2
   return 1
 }
 

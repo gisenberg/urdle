@@ -47,3 +47,27 @@ body {
 .tile-cursor {
   animation: cursor-pulse 1.2s ease-in-out infinite;
 }
+
+.hint-card {
+  perspective: 600px;
+}
+
+.hint-card-inner {
+  display: grid;
+  transition: transform 0.6s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.hint-card-inner.flipped {
+  transform: rotateX(180deg);
+}
+
+.hint-card-front,
+.hint-card-back {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+}
+
+.hint-card-back {
+  transform: rotateX(180deg);
+}

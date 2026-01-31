@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import {
   getTodayKey,
   getRandomWord,
@@ -66,6 +66,26 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   const [currentGuess, setCurrentGuess] = useState('')
   const [gameStatus, setGameStatus] = useState<GameStatus>('playing')
   const [shakeRow, setShakeRow] = useState(false)
+  const [elapsedSeconds, setElapsedSeconds] = useState(0)
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  // Timer that ticks every second while playing
+  useEffect(() => {
+    if (gameStatus === 'playing') {
+      intervalRef.current = setInterval(() => {
+        setElapsedSeconds((prev) => prev + 1)
+      }, 1000)
+    } else if (intervalRef.current) {
+      clearInterval(intervalRef.current)
+      intervalRef.current = null
+    }
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current)
+        intervalRef.current = null
+      }
+    }
+  }, [gameStatus])
 
   // Load saved state on mount (daily only)
   useEffect(() => {
@@ -198,5 +218,6 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
     submitGuess,
     generateShareText,
     startRandomGame,
+    elapsedSeconds,
   }
 }

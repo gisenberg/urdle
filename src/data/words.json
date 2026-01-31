@@ -1,2330 +1,2066 @@
 [
   {
-    "word": "ass",
-    "definitions": [
-      "The part of your body that makes sitting possible and farting inevitable",
-      "Your posterior region, beloved by Sir Mix-a-Lot and dreaded by toilet seats everywhere",
-      "The butt, the booty, the badonkadonk — nature's cushion"
-    ]
-  },
-  {
-    "word": "shit",
-    "definitions": [
-      "What exits your body after Taco Bell and bad life decisions",
-      "The universal swear word that works as a noun, verb, adjective, and complete sentence",
-      "Fecal matter, or literally anything you want it to mean depending on tone"
-    ]
-  },
-  {
-    "word": "fuck",
-    "definitions": [
-      "The most versatile word in the English language — noun, verb, adjective, adverb, and punctuation",
-      "To engage in the horizontal monster mash",
-      "An exclamation suitable for stubbing your toe, winning the lottery, or both simultaneously"
-    ]
-  },
-  {
-    "word": "damn",
-    "definitions": [
-      "The PG-13 version of telling something to go to hell",
-      "What you say when 'darn' just doesn't capture the magnitude of your frustration",
-      "A mild curse that your grandma uses when she drops her knitting"
-    ]
-  },
-  {
-    "word": "hell",
-    "definitions": [
-      "Where your mom said you were going every time you cursed as a kid",
-      "The afterlife destination for fun people, or a Monday morning meeting",
-      "A fiery pit of damnation, or just the DMV on a Friday afternoon"
-    ]
-  },
-  {
     "word": "bitch",
     "definitions": [
-      "Someone who complains constantly, or a female dog who is tired of your nonsense",
-      "A term of endearment among friends or a declaration of war among enemies",
-      "What you mutter under your breath at the person who took your parking spot"
-    ]
-  },
-  {
-    "word": "dick",
-    "definitions": [
-      "A male reproductive organ, or a person who acts like one",
-      "The appendage that has started more wars and bad decisions than any politician",
-      "Someone who cuts in line, steals your lunch from the office fridge, and feels no remorse"
-    ]
-  },
-  {
-    "word": "cock",
-    "definitions": [
-      "A rooster, a male organ, or what you call your buddy when he eats your leftovers",
-      "The body part that takes over decision-making after two beers",
-      "What a gentleman calls his equipment when he's feeling fancy"
-    ]
-  },
-  {
-    "word": "cum",
-    "definitions": [
-      "The baby batter that ruined your favorite shirt",
-      "Man juice — the substance responsible for both life and laundry emergencies",
-      "The reason you should always have tissues on the nightstand"
-    ]
-  },
-  {
-    "word": "tit",
-    "definitions": [
-      "A breast, a bird, or a foolish person — context is everything",
-      "One half of the pair that babies and adults alike are obsessed with",
-      "A boob, a knocker, a mammary delight"
-    ]
-  },
-  {
-    "word": "piss",
-    "definitions": [
-      "Liquid waste your body produces, or what you do to your neighbors when you mow at 7am",
-      "The act of urinating, or the emotion you feel in traffic",
-      "What fills your bladder and occasionally your pants when you laugh too hard"
-    ]
-  },
-  {
-    "word": "crap",
-    "definitions": [
-      "Poop's polite cousin that you can say in front of your grandma",
-      "Excrement, junk, or the stuff cluttering your garage",
-      "A slightly more acceptable version of shit for when children are present"
-    ]
-  },
-  {
-    "word": "nut",
-    "definitions": [
-      "To ejaculate with the force of a thousand suns",
-      "The moment of climax that makes you question all your life choices",
-      "Slang for orgasm — the 3 seconds that make the other 23 hours and 59 minutes worth it"
-    ]
-  },
-  {
-    "word": "turd",
-    "definitions": [
-      "A single piece of poop that you're weirdly proud of",
-      "A log of human waste, or your least favorite coworker",
-      "What you leave behind in the toilet as a gift for the next person"
-    ]
-  },
-  {
-    "word": "dong",
-    "definitions": [
-      "A schlong, a wiener, a Johnson — the male member in all its floppy glory",
-      "What swings between a man's legs like a meaty pendulum",
-      "Penis, but with a fun onomatopoeia energy"
-    ]
-  },
-  {
-    "word": "hump",
-    "definitions": [
-      "To dry-ride someone like a desperate chihuahua on a couch pillow",
-      "The thrusting motion associated with making the beast with two backs",
-      "What your dog does to guests' legs to assert dominance"
-    ]
-  },
-  {
-    "word": "smeg",
-    "definitions": [
-      "The horrifying cheese-like substance found under an unwashed foreskin",
-      "Dick cheese — the forbidden fromage that makes hygiene non-negotiable",
-      "Penile buildup that proves some men need a user manual for their own body"
-    ]
-  },
-  {
-    "word": "pube",
-    "definitions": [
-      "A curly hair from the nether regions that always ends up in the wrong place",
-      "The wiry little hairs that show up in your food at the worst possible moment",
-      "Body hair from downtown that migrates to bar soap and shower walls"
-    ]
-  },
-  {
-    "word": "slag",
-    "definitions": [
-      "British slang for a person of extremely loose morals",
-      "Someone who has been around the block so many times they've worn a groove in the pavement",
-      "A promiscuous person, or industrial waste — equally toxic"
-    ]
-  },
-  {
-    "word": "slut",
-    "definitions": [
-      "Someone who treats intimacy like a revolving door",
-      "A person of legendary promiscuity, now reclaimed as a badge of honor by some",
-      "What prudes call anyone having more fun than them"
+      "Your ex, your boss, or literally anyone who cuts you off in traffic",
+      "A female dog, or the word that flies out of your mouth when someone eats your leftovers",
+      "The Swiss Army knife of swear words — works as a noun, verb, and entire personality"
     ]
   },
   {
     "word": "whore",
     "definitions": [
-      "A person who will do just about anything for money, attention, or pizza",
-      "Someone who trades favors like baseball cards",
-      "An insult hurled since medieval times, still going strong on Xbox Live"
+      "Someone who'll do absolutely anything for attention, money, or a Klondike bar",
+      "A person whose legs open more often than a 7-Eleven",
+      "The insult that's been ruining reputations since literal biblical times"
     ]
   },
   {
     "word": "skank",
     "definitions": [
-      "A person so grimy they make gas station bathrooms look hygienic",
-      "Someone who looks like they haven't showered since the last eclipse",
-      "A filthy, promiscuous individual who is a walking PSA for penicillin"
+      "A walking yeast infection who makes truck stop bathrooms look sterile",
+      "Someone whose body count is higher than their shower count",
+      "A person so nasty their STD panel comes back as a novella"
     ]
   },
   {
     "word": "queef",
     "definitions": [
-      "A vaginal air biscuit that kills the mood faster than a phone call from mom",
-      "When the lady parts produce a sound effect that nobody asked for",
-      "A front-butt toot that makes everyone pretend they didn't hear it"
+      "A pussy fart that hits mid-stroke and murders the vibe stone dead",
+      "Your vagina's way of joining the conversation when nobody asked",
+      "The front-butt air horn that makes both people freeze and avoid eye contact"
     ]
   },
   {
     "word": "shart",
     "definitions": [
-      "When a fart betrays you and brings a friend along",
-      "The catastrophic gamble of trusting a fart and losing spectacularly",
-      "A shit-fart combo that ruins underwear and reputations simultaneously"
+      "When you gamble on a fart and your underwear pays the price",
+      "That horrifying moment your ass plays Russian roulette and the chamber was loaded",
+      "A shit-fart combo meal that nobody ordered and nobody can return"
     ]
   },
   {
     "word": "skeet",
     "definitions": [
-      "To ejaculate with impressive trajectory and distance",
-      "Shooting your genetic material like a Super Soaker",
-      "The act of launching baby batter across the room like a biological sprinkler"
+      "To launch a rope of baby batter across the room like a jizz sniper",
+      "Ejaculating with the range and accuracy of a pressure washer",
+      "Shooting your load so hard it could qualify as a projectile weapon"
     ]
   },
   {
     "word": "rimjob",
     "definitions": [
-      "Tongue-punching someone's leather cheerio",
-      "Eating booty like groceries — literally licking the forbidden starfish",
-      "Oral attention to the back door that requires trust and a strong stomach"
+      "Tongue-punching someone's fart box until they see God",
+      "Eating ass so enthusiastically you could write a Yelp review about it",
+      "Licking the dirtiest part of someone's body because love is disgusting"
     ]
   },
   {
     "word": "facial",
     "definitions": [
-      "A spa treatment for the face, but NOT the kind you get at a day spa",
-      "When someone decorates your face with baby batter like a Jackson Pollock painting",
-      "The money shot that the adult film industry built an empire on"
-    ]
-  },
-  {
-    "word": "fap",
-    "definitions": [
-      "The onomatopoeia for male self-love sessions",
-      "Jerking off — the sound effect your hand makes during alone time",
-      "Solo male pleasure, named after the sound nobody wants to hear through thin walls"
-    ]
-  },
-  {
-    "word": "wank",
-    "definitions": [
-      "British term for jerking off, usually accompanied by a cup of tea",
-      "Pulling your own pork — the gentleman's solo hobby",
-      "Self-pleasure, or something utterly worthless — as in 'this meeting was a total wank'"
+      "When someone glazes your face like a Krispy Kreme donut",
+      "A Jackson Pollock painting made with dick and aimed at your forehead",
+      "Getting your face redecorated with hot baby batter against your better judgment"
     ]
   },
   {
     "word": "spunk",
     "definitions": [
-      "Man juice, baby batter, the sauce of life",
-      "Semen, or alternatively, courage — but mostly semen",
-      "The genetic goo that stains everything it touches permanently"
-    ]
-  },
-  {
-    "word": "knob",
-    "definitions": [
-      "British slang for penis, or the thing you turn to open a door — don't mix them up",
-      "A dick, a bellend, a trouser mushroom",
-      "What British people call both doorknobs and idiots, sometimes simultaneously"
+      "Nut butter — the sticky white sauce that ruins everything it touches",
+      "The baby gravy that stains sheets, socks, and your dignity permanently",
+      "Semen, but make it sound like a 1950s compliment your grandma would use"
     ]
   },
   {
     "word": "chode",
     "definitions": [
-      "A penis that is wider than it is long — like a tuna can",
-      "The unfortunate member that looks like a hockey puck with ambition",
-      "A dick so short and fat it looks like a thumb sticking out of a bush"
+      "A dick wider than it is long — like trying to fuck with a hockey puck",
+      "The tuna can of penises — girthy enough to hurt but too short to matter",
+      "A cock so fat and stubby it looks like a thumb growing out of a bush"
     ]
   },
   {
     "word": "taint",
     "definitions": [
-      "The no-man's-land between your junk and your trunk",
-      "The gooch, the grundle, the perineum — the DMZ of your body",
-      "That strip of skin that t'aint your balls and t'aint your ass"
+      "The swampy strip between your balls and your asshole that smells like a war crime",
+      "T'aint your balls and t'aint your ass — the DMZ of your crotch",
+      "The perineum — nature's most neglected, sweaty inch of flesh"
     ]
   },
   {
     "word": "gooch",
     "definitions": [
-      "The sweaty patch of real estate between your sack and your crack",
-      "Your perineum — the bridge between two very different neighborhoods",
-      "The taint, the grundle, the area that gets no sunlight and even less respect"
+      "That swamp-ass patch between your sack and crack that never fully dries",
+      "The fleshy bridge connecting Balltown to Asshole City with no scenic overlook",
+      "The most disgusting square inch of skin on a man's body, and that's saying something"
     ]
   },
   {
     "word": "grundle",
     "definitions": [
-      "Yet another name for the taint because that region deserves multiple titles",
-      "The perineal area that accumulates sweat like a sponge in a sauna",
-      "The fleshy bridge connecting Ballsville to Asstown"
+      "The sweat sponge between your nuts and your shithole that breeds its own ecosystem",
+      "Your taint's alter ego — same stank, different name",
+      "The fleshy speedbump between your junk and your trunk that collects funk like a DJ"
     ]
   },
   {
     "word": "ballsack",
     "definitions": [
-      "Nature's wrinkliest coin purse that holds the family jewels",
-      "The saggy skin pouch that looks worse the older you get",
-      "A fleshy bag that shrinks in cold water and expands in hot — basically a mood ring"
+      "Nature's wrinkliest coin purse — looks like a Shar-Pei in a sauna",
+      "The saggy flesh bag that gets stuck to your thigh on hot days like crotch velcro",
+      "A hairy skin pouch that shrinks in the cold and dangles to your knees in the heat"
     ]
   },
   {
     "word": "nutsack",
     "definitions": [
-      "The scrotal pouch that swings like a fleshy pendulum",
-      "A hairy bag of marbles that men are unreasonably protective of",
-      "The dangly coin purse that makes sitting on bicycles a strategic endeavor"
+      "The dangly flesh pendulum that makes sitting down a minefield",
+      "A sweaty bag of marbles that gets caught in your zipper at least once per lifetime",
+      "Your testicles' fleshy hammock that swings like a grandfather clock"
     ]
   },
   {
     "word": "butthole",
     "definitions": [
-      "The exit-only door that some people treat as an entrance",
-      "Your brown eye, your chocolate starfish, your rear porthole",
-      "The sphincter that holds back chaos on a daily basis"
+      "The exit-only door that adventurous people use as an entrance",
+      "Your chocolate starfish — the sphincter holding back Satan's mudslide 24/7",
+      "The puckered eye that winks every time you sit on cold leather"
     ]
   },
   {
     "word": "asshole",
     "definitions": [
-      "Your rectal opening, or literally every driver on the highway except you",
-      "A sphincter, or a person who acts like one — tight, clenched, and full of crap",
-      "The body part that doubles as the most popular insult in the English language"
+      "Your shithole, or every single person who has ever merged into your lane",
+      "A clenched ring of muscle that spends its whole life dealing with crap — literally",
+      "The body part that doubles as the perfect word for your landlord"
     ]
   },
   {
     "word": "shithead",
     "definitions": [
-      "Someone so dumb their brain has been replaced with feces",
-      "A person whose skull contains nothing but diarrhea and bad ideas",
-      "An idiot of such magnitude that their head is literally full of shit"
+      "Someone whose skull is just a bowl of hot diarrhea where a brain should be",
+      "A person so stupid their cranium is literally packed with liquid shit",
+      "An idiot whose head is a porta-potty — dark, full of crap, and nobody wants to go in there"
     ]
   },
   {
     "word": "asshat",
     "definitions": [
-      "Someone who wears their own ass as a hat — head firmly up their own butt",
-      "A person so clueless they've fashioned headwear from their own posterior",
-      "An idiot whose head is so far up their ass it functions as a hat"
+      "A person who shoved their head so far up their own ass it became headwear",
+      "Someone wearing their own colon as a fedora because they're that far up there",
+      "An idiot whose head and rectum share the same zip code"
     ]
   },
   {
     "word": "dickweed",
     "definitions": [
-      "A useless person who is as unwanted as a weed growing out of a dick",
-      "An annoying waste of space — like crabgrass but for penises",
-      "Someone so pathetic they're basically genital vegetation"
+      "A worthless pubes-and-shaft weed that sprouts in the garden of idiots",
+      "Someone so useless they're basically genital crabgrass nobody can get rid of",
+      "A parasitic penis plant that contributes nothing but annoyance"
     ]
   },
   {
     "word": "fuckface",
     "definitions": [
-      "A person whose face looks like it was designed to be insulted",
-      "Someone so ugly their face is an act of aggression",
-      "The ultimate combination of profanity and facial description"
+      "A face so punchable it was born pre-fucked",
+      "Someone whose mug looks like God sneezed while sculpting and just said 'fuck it'",
+      "A person whose face is an active insult to everyone who has to look at it"
     ]
   },
   {
     "word": "dumbass",
     "definitions": [
-      "A person whose stupidity is their defining characteristic",
-      "Someone who makes rocks look like Rhodes Scholars",
-      "An idiot so profound that 'dumb' alone couldn't contain it — the ass was necessary"
+      "A person so catastrophically stupid they make a bag of hammers look like MIT faculty",
+      "An idiot of such magnitude that 'dumb' needed 'ass' as a force multiplier",
+      "Someone whose brain cell died of loneliness years ago"
     ]
   },
   {
     "word": "jackass",
     "definitions": [
-      "A donkey, a fool, or Johnny Knoxville's entire career",
-      "Someone who acts so stupid it's almost impressive",
-      "An idiot who doubles down on bad decisions like it's a competitive sport"
+      "A donkey, a fool, or Johnny Knoxville stapling his nutsack to his leg for content",
+      "Someone who doubles down on the dumbest possible decision every single time",
+      "An idiot who treats bad choices like a competitive sport and goes for gold"
     ]
   },
   {
     "word": "dipshit",
     "definitions": [
-      "An idiot who has been dipped in shit and none the wiser for it",
-      "Someone whose IQ is lower than their shoe size",
-      "A moron so dense that light bends around them"
+      "An idiot who was dipped headfirst into a vat of liquid shit and came out dumber",
+      "Someone so dense that light bends around them to avoid making contact",
+      "A moron whose IQ is a negative number and whose parents are siblings"
     ]
   },
   {
     "word": "shitstain",
     "definitions": [
-      "A skidmark on the underwear of society",
-      "A person so worthless they're the human equivalent of a brown streak",
-      "Someone who leaves a mark on everything they touch — and not a good one"
+      "The crusty brown skidmark on the underwear of humanity",
+      "A person so worthless they're the permanent dookie streak on society's tighty-whities",
+      "Someone who leaves a foul, indelible mark on everything they touch"
     ]
   },
   {
     "word": "cumstain",
     "definitions": [
-      "A dried deposit of baby batter that won't come out no matter how hard you scrub",
-      "The crusty evidence of a solo session that haunts your sheets",
-      "A worthless person — the human equivalent of a semen splatter on a couch cushion"
+      "The crusty splatter on your sheets that glows under a blacklight like a crime scene",
+      "Dried jizz evidence that no amount of scrubbing will ever fully remove",
+      "A person whose entire existence has the value of dried nut on a sock"
     ]
   },
   {
     "word": "fuckwit",
     "definitions": [
-      "A person whose wit has been entirely replaced with fuckery",
-      "An idiot of the highest order — they've achieved a PhD in stupidity",
-      "Someone whose brain cells have collectively filed for bankruptcy"
+      "A person whose entire brain has been replaced with raw, uncut fuckery",
+      "Someone who somehow fails at things you didn't think were possible to fail at",
+      "An idiot so advanced they've earned a PhD in being a useless prick"
     ]
   },
   {
     "word": "asswipe",
     "definitions": [
-      "Toilet paper, or a person who serves roughly the same purpose in society",
-      "Someone so useless their only function is cleaning up other people's crap",
-      "A person you'd use to wipe your butt if toilet paper ran out — metaphorically"
+      "Toilet paper, or a person who serves the exact same purpose in society",
+      "A human being whose sole function is absorbing other people's shit",
+      "Someone you'd literally use to wipe your ass if Charmin went extinct"
     ]
   },
   {
     "word": "shitbag",
     "definitions": [
-      "A colostomy bag, or a person with the personality of one",
-      "A sack full of feces — literal or figurative, both equally unpleasant",
-      "Someone whose entire being can be summarized as a bag of crap"
+      "A colostomy bag with a personality — warm, full of shit, and attached to an asshole",
+      "A person whose internal organs are just one continuous trash bag of feces",
+      "The human equivalent of a Hefty sack filled to bursting with wet diarrhea"
     ]
   },
   {
     "word": "scumbag",
     "definitions": [
-      "Originally slang for a used condom — now just a despicable person",
-      "A sleazy, dishonest lowlife who makes used car salesmen look trustworthy",
-      "A person so slimy they leave a trail wherever they go"
+      "Originally a used condom — now used to describe your friend's ex and most politicians",
+      "A slimy, sleazy sack of filth who leaves a snail trail of betrayal everywhere they go",
+      "A person so grimy you need to shower after shaking their hand"
     ]
   },
   {
     "word": "douchebag",
     "definitions": [
-      "A feminine hygiene product, or a guy in a popped collar with too much body spray",
-      "Someone whose personality is 90% Axe body spray and 10% unearned confidence",
-      "The human equivalent of a product designed to clean out unpleasant things"
+      "A vaginal cleaning product, or a guy in a tapout shirt who reeks of Axe body spray",
+      "Someone whose entire personality is a popped collar and unearned sexual confidence",
+      "A human feminine hygiene product — designed to clean out unpleasant things, yet somehow worse"
     ]
   },
   {
     "word": "douche",
     "definitions": [
-      "A vaginal cleaning device, or your ex who still wears Affliction t-shirts",
-      "Short for douchebag — for when you can't even waste a full word on someone",
-      "A cleansing product or a person who desperately needs cleansing from society"
+      "A coochie rinse device, or your ex who still does finger guns at the club",
+      "Someone so insufferable that a single syllable is all you'll waste on them",
+      "The abbreviated form of douchebag for when you can't even be bothered to insult them fully"
     ]
   },
   {
     "word": "prick",
     "definitions": [
-      "A penis, a thorn, or that guy who reminds the teacher about homework",
-      "A sharp, poking thing — whether it's a needle or an insufferable human being",
-      "British-approved word for both a dick and a jerk, saving time on insults"
-    ]
-  },
-  {
-    "word": "twat",
-    "definitions": [
-      "British slang for a vagina, or a spectacularly stupid person",
-      "A fool so monumental that calling them an idiot would be a compliment",
-      "A word that sounds exactly as vulgar as it means"
+      "A dick with a British accent and a penchant for ruining everyone's day",
+      "A sharp, poking thing — whether it's a needle or the guy who reminds the teacher about homework",
+      "The cock of insults — short, to the point, and everyone has met one"
     ]
   },
   {
     "word": "bellend",
     "definitions": [
-      "The tip of a penis that looks like a little helmet",
-      "British insult meaning the head of a cock — reserved for premium idiots",
-      "The glans — shaped like a bell and the inspiration for countless British insults"
+      "The helmet-shaped tip of a cock that inspired Britain's greatest insult",
+      "A penis head, or a person who looks and acts like one — smooth, round, and useless",
+      "The glans penis — what British people call each other when 'wanker' doesn't cut it"
     ]
   },
   {
     "word": "wanker",
     "definitions": [
-      "A chronic masturbator, or just any annoying British person according to other British people",
-      "Someone who jerks off so much their dominant arm is visibly larger",
-      "The UK's favorite insult — applicable to anyone from your boss to the Prime Minister"
+      "A chronic masturbator whose dominant arm is visibly bigger than the other",
+      "Someone who jerks off so furiously they've developed carpal tunnel in their wrist",
+      "Britain's favorite insult — used on everyone from your mate to the Prime Minister"
     ]
   },
   {
     "word": "tosser",
     "definitions": [
-      "British slang for a wanker — someone who tosses off regularly",
-      "A useless person who contributes nothing but self-pleasure to society",
-      "What you call someone in the UK when 'wanker' feels too aggressive"
+      "British for a wanker who tosses himself off like it's a full-time career",
+      "A person who contributes nothing to society except the contents of their own nutsack",
+      "What Brits call you when 'wanker' feels too aggressive but you're still a jerk-off"
     ]
   },
   {
     "word": "bollocks",
     "definitions": [
-      "British word for testicles, or an expression meaning total nonsense",
-      "Balls — both the anatomical kind and the 'that's absolute rubbish' kind",
-      "The crown jewels, the family stones, or complete and utter bullshit"
+      "Testicles, or total horseshit — the British word that does double duty below the belt",
+      "Your knackers, your plums, or an expression meaning 'that's a load of steaming crap'",
+      "The crown jewels dangling between British legs and dripping from British mouths"
     ]
   },
   {
     "word": "bugger",
     "definitions": [
-      "British term for someone who engages in anal activities",
-      "A mild British swear that technically refers to sodomy but nobody cares",
-      "What your British grandpa says when he drops something — blissfully unaware of the real meaning"
-    ]
-  },
-  {
-    "word": "shag",
-    "definitions": [
-      "British word for having sex — made famous by Austin Powers",
-      "To fornicate in a distinctly British fashion, presumably with tea nearby",
-      "The act of intercourse, or a type of carpet — sometimes both at once"
-    ]
-  },
-  {
-    "word": "bonk",
-    "definitions": [
-      "British slang for sex that sounds way too adorable for the act itself",
-      "To have intercourse, but in a way that sounds like a cartoon sound effect",
-      "A lighthearted word for shagging that makes it sound family-friendly"
+      "British for someone who shags arses — used casually by grannies who have no idea",
+      "A word meaning anal sex that your grandpa drops at Sunday dinner like it's nothing",
+      "Sodomy dressed up in a bowler hat and monocle — horrifying origin, adorable delivery"
     ]
   },
   {
     "word": "thundercunt",
     "definitions": [
-      "A person so awful that regular profanity cannot contain their terribleness",
-      "The nuclear option of insults — reserved for people who have truly earned it",
-      "When calling someone a cunt needs a weather event prefix for proper emphasis"
+      "A cunt so powerful it arrives with its own lightning storm and earthquake",
+      "The nuclear warhead of insults — reserved only for people who truly deserve extinction",
+      "When 'cunt' alone can't convey the sheer magnitude of someone's awfulness"
     ]
   },
   {
     "word": "cockwomble",
     "definitions": [
-      "A British insult combining genitalia with a fuzzy creature for maximum absurdity",
-      "A foolish person who stumbles through life dick-first like a penile Womble",
-      "Someone so useless they're basically a penis-shaped fictional creature from British TV"
+      "A dick-shaped British cryptid that bumbles through life spreading genital chaos",
+      "A foolish penis creature who stumbles cock-first into every situation and makes it worse",
+      "British insult combining a children's TV character with a throbbing erection"
     ]
   },
   {
     "word": "wankstain",
     "definitions": [
-      "The crusty aftermath of a solo session, or a truly worthless person",
-      "A person who is the human equivalent of dried semen on a sock",
-      "Someone whose entire existence is as meaningful as a jizz mark on a bedsheet"
+      "The crusty jizz mark on a teenager's bedsheet that develops its own zip code",
+      "A dried semen splatter that has achieved sentience and applied for a driver's license",
+      "A person whose worth equals the crunchy residue in a wanker's favourite sock"
     ]
   },
   {
     "word": "shitgibbon",
     "definitions": [
-      "A gibbon made of shit, or a person who swings from terrible decision to terrible decision",
-      "An insult so creative it sounds like a creature from a scatological zoo",
-      "A flailing primate composed entirely of feces and bad takes"
+      "A screeching primate made entirely of liquid shit swinging from bad take to bad take",
+      "An ape constructed from diarrhea who flings his own feces at polite society",
+      "The zoo's worst exhibit — a gibbon sculpted from warm turds and audacity"
     ]
   },
   {
     "word": "dingleberry",
     "definitions": [
-      "A piece of poop clinging to ass hair like a tiny brown Christmas ornament",
-      "The crusty hitchhiker that refuses to leave your butt hair",
-      "A fecal nugget dangling from anal follicles — nature's worst decoration"
+      "A nugget of dried shit dangling from your ass hair like the world's worst Christmas ornament",
+      "The crunchy hitchhiker that clings to your butt pubes and refuses to let go",
+      "A fecal raisin swinging from your anal forest — pick it or let it fossilize"
     ]
   },
   {
     "word": "mudbutt",
     "definitions": [
-      "When your butt becomes a swamp after a questionable meal",
-      "The condition where your crack turns into a chocolate slip-n-slide",
-      "Post-Taco-Bell syndrome where wiping is a futile exercise"
+      "When your ass crack becomes a chocolate swamp after Taco Bell and regret",
+      "The condition where wiping is futile because your crack is a brown Slip 'N Slide",
+      "Post-diarrhea ass that no amount of toilet paper can restore to factory settings"
     ]
   },
   {
     "word": "motherfucker",
     "definitions": [
-      "Samuel L. Jackson's favorite word and the crown jewel of compound profanity",
-      "Someone who allegedly has intimate relations with maternal figures",
-      "The king of swear words — when 'fuck' alone cannot convey your rage"
+      "Samuel L. Jackson's mating call and the GOAT of compound profanity",
+      "Someone who allegedly raw-dogs mothers — the Oedipus of swear words",
+      "The king of all cuss words — when 'fuck' needs a family member for emphasis"
     ]
   },
   {
     "word": "clusterfuck",
     "definitions": [
-      "A situation so catastrophically messed up that a single 'fuck' can't describe it",
-      "When everything goes wrong simultaneously in a magnificent orgy of failure",
-      "A complete and utter disaster — like a pile-up but with more profanity"
+      "A catastrophic orgy of failure where everything goes wrong simultaneously and violently",
+      "When a situation is so fucked it needs a group noun to contain all the fuckery",
+      "A pile-up of disasters humping each other into one magnificent dumpster fire"
     ]
   },
   {
     "word": "shitshow",
     "definitions": [
-      "An event or situation that has gone so wrong it's now entertainment",
-      "A spectacular display of incompetence that you can't look away from",
-      "When everything falls apart so beautifully it deserves a live audience"
+      "A live performance of everything going catastrophically wrong in spectacular fashion",
+      "When the wheels fall off, the building's on fire, and someone shit the bed — literally",
+      "A disaster so entertaining it deserves popcorn and front-row seats"
     ]
   },
   {
     "word": "assmunch",
     "definitions": [
-      "Someone who eats ass, or just a total loser",
-      "A person whose face is permanently attached to someone's posterior",
-      "An insult implying someone dines exclusively on buttocks"
+      "A person who eats ass like it's an all-you-can-eat buffet",
+      "Someone whose face is permanently glued to someone else's butt cheeks",
+      "A dedicated ass diner who goes back for seconds and thirds"
     ]
   },
   {
     "word": "buttmunch",
     "definitions": [
-      "A 90s-era insult meaning someone who snacks on butts",
-      "What Beavis called Butthead, and what you call your annoying friend",
-      "A gluteal gourmand — a connoisseur of posterior cuisine"
+      "A 90s-era insult implying you snack on butts like trail mix",
+      "What Beavis called Butthead, and what your mom calls your stepdad under her breath",
+      "A connoisseur of ass cuisine — a sommelier of the posterior palate"
     ]
   },
   {
     "word": "shitfaced",
     "definitions": [
-      "So drunk that your face has metaphorically turned to feces",
-      "The level of intoxication where you can't feel your face and your decisions are lethal",
-      "Blackout drunk — the state where tomorrow's regrets are being manufactured at full speed"
+      "So obliterated on booze that your face melts into a puddle of fecal regret",
+      "The blackout drunk level where tomorrow's regrets are being mass-produced",
+      "Intoxication so severe your brain has been replaced with warm liquid shit"
     ]
   },
   {
     "word": "batshit",
     "definitions": [
-      "A level of crazy that transcends normal insanity — powered by bat feces",
-      "Absolutely unhinged, like the guano of a deranged cave creature",
-      "When someone is so crazy that regular shit comparisons won't suffice"
+      "A level of insanity that transcends normal crazy and enters the feces dimension",
+      "So unhinged that even the voices in your head filed a restraining order",
+      "Crazy powered by bat guano — the premium unleaded of mental instability"
     ]
   },
   {
     "word": "horseshit",
     "definitions": [
-      "Complete and utter nonsense produced by a lying liar who lies",
-      "Bullshit's bigger, smellier cousin from the equine department",
-      "What comes out of a horse's ass, and also out of your boss's mouth"
+      "Bullshit's bigger, smellier, dumber cousin that weighs forty pounds",
+      "Lies so massive they required an upgrade from bull to horse-sized excrement",
+      "What comes out of a horse's ass and your manager's mouth in equal quantities"
     ]
   },
   {
     "word": "bullshit",
     "definitions": [
-      "Lies, nonsense, and fabrications — the foundation of most meetings",
-      "What a bull produces from its rear end, and what politicians produce from the front",
-      "Complete fabrication wrapped in confidence and delivered with a straight face"
+      "Lies and fabrications so thick you need hip waders to get through them",
+      "The foundation of corporate meetings, political speeches, and your ex's excuses",
+      "What a bull squirts out its backside, and what every LinkedIn influencer posts daily"
     ]
   },
   {
     "word": "ratfuck",
     "definitions": [
-      "To sabotage someone through sneaky, underhanded means",
-      "Political dirty tricks that would make a rat blush",
-      "Screwing someone over in the most devious, rodent-like fashion possible"
+      "To sabotage someone with the sneaky, disease-carrying energy of a sewer rat",
+      "Screwing someone over in a way so underhanded even rats are offended by the comparison",
+      "Political dirty tricks so vile they'd make Nixon's ghost blush"
     ]
   },
   {
     "word": "cuntpunt",
     "definitions": [
-      "To kick someone directly in the genitals with field-goal precision",
-      "A swift boot to the crotch region — gender-neutral violence at its finest",
-      "The act of punting someone's private parts into next week"
+      "To dropkick someone in the genitals with NFL-level accuracy and force",
+      "A swift, devastating boot to the crotch that launches reproductive organs into orbit",
+      "The gender-neutral genital field goal that ends conversations and bloodlines"
     ]
   },
   {
     "word": "dickhead",
     "definitions": [
-      "A person whose head resembles a penis, or whose personality does",
-      "Someone so phallic in nature that their skull has become a glans",
-      "An idiot — specifically one whose cranium functions as a penile tip"
+      "A person whose skull is shaped like and functions identically to a penis tip",
+      "Someone so phallic their entire head is just one big throbbing glans",
+      "An idiot whose cranium is indistinguishable from the head of an unwashed cock"
     ]
   },
   {
     "word": "shitbird",
     "definitions": [
-      "A worthless person who flies around spreading misery like a fecal pigeon",
-      "Military slang for the worst soldier in the unit — the one who ruins everything",
-      "A crappy individual who soars on wings of incompetence"
+      "A fecal pigeon that flies overhead raining turds on everyone's parade",
+      "Military slang for the guy who fucks up so badly he gets the whole platoon punished",
+      "A worthless turd with wings soaring on an updraft of its own incompetence"
     ]
   },
   {
     "word": "assclown",
     "definitions": [
-      "A person who is both an ass and a clown — the worst circus act imaginable",
-      "Someone whose buffoonery is matched only by their posterior energy",
-      "A fool who entertains nobody while embarrassing everybody"
+      "A honking, juggling buffoon whose entire act is performed out of his own ass",
+      "Part ass, part clown — the worst circus act ever conceived by a drunk God",
+      "A fool who entertains nobody while simultaneously embarrassing the entire human race"
     ]
   },
   {
     "word": "cocksucker",
     "definitions": [
-      "Someone who sucks cock — Deadwood's most popular word",
-      "An insult implying oral fixation with male genitalia",
-      "What Al Swearengen calls literally everyone in the camp"
+      "Al Swearengen's favorite word and the backbone of Deadwood's entire script",
+      "Someone who sucks dick with such enthusiasm it becomes their defining personality trait",
+      "An insult that doubles as a job description depending on context and enthusiasm"
     ]
   },
   {
     "word": "nutbuster",
     "definitions": [
-      "Something so intense it metaphorically destroys your testicles",
-      "A devastating blow to the groin region — physical or emotional",
-      "An event or action that cracks your nuts like a giant squirrel"
+      "Something so intense your balls literally crack open like walnuts in a vice",
+      "A devastating groin shot that rearranges your testicles into a new configuration",
+      "The kick, the punch, or the ex that completely obliterated your family jewels"
     ]
   },
   {
     "word": "shitstorm",
     "definitions": [
-      "A massive onslaught of problems raining down like fecal precipitation",
-      "When everything goes wrong at once in a hurricane of crap",
-      "A meteorological event made entirely of excrement and bad luck"
+      "A Category 5 hurricane made entirely of diarrhea, bad luck, and broken dreams",
+      "When problems rain down so hard you need a shit-umbrella and a therapist",
+      "A meteorological fecal apocalypse that leaves nothing but brown devastation"
     ]
   },
   {
     "word": "fuckstick",
     "definitions": [
-      "A dildo, a penis, or a useless person shaped vaguely like either",
-      "An idiot who is as useful as a stick designed solely for fucking",
-      "A phallic insult for someone dumber than a literal stick"
+      "A dildo, a penis, or any dipshit who is shaped vaguely like a useless rod",
+      "A phallic idiot who is somehow less useful than an actual stick you could fuck",
+      "An insult for someone dumber than a literal stick with a condom on it"
     ]
   },
   {
     "word": "shitlord",
     "definitions": [
-      "A feudal ruler of the land of feces — someone who reigns over crap",
-      "An internet troll so dedicated to being awful they've achieved royalty status",
-      "The supreme overlord of terrible behavior and crappy opinions"
+      "The supreme feudal ruler of Turd Mountain who reigns over a kingdom of crap",
+      "An internet troll so committed to being awful they've been crowned royalty of shit",
+      "The medieval monarch of feces whose castle was built on a foundation of diarrhea"
     ]
   },
   {
     "word": "cuntwaffle",
     "definitions": [
-      "A vagina-shaped breakfast food, or an absolutely ridiculous insult",
-      "Someone so absurd they can only be described as a genital breakfast item",
-      "The perfect insult when you want to combine anatomy with brunch"
+      "A vagina pressed in a waffle iron — the breakfast item from Satan's IHOP",
+      "Someone so absurd they can only be described as a genital pastry from hell",
+      "The vulgar brunch special that combines genitalia and carbs into one glorious insult"
     ]
   },
   {
     "word": "fuckknuckle",
     "definitions": [
-      "An Australian insult for someone dumber than a fist full of genitals",
-      "A knuckle-dragging idiot who fucks up everything they touch",
-      "Someone whose hands are only good for one thing, and they're bad at that too"
+      "An Australian insult for a fist-shaped idiot who fucks everything up with his bare hands",
+      "A knuckle-dragging moron whose fingers are only good for picking his ass",
+      "Someone whose hands cause more destruction than a wrecking ball dipped in stupid"
     ]
   },
   {
     "word": "twatwaffle",
     "definitions": [
-      "A vaginal waffle — an insult so absurd it circles back to poetic",
-      "Someone who is simultaneously a twat and a waffle — crispy and offensive",
-      "The breakfast-themed insult that launched a thousand internet arguments"
+      "A crispy golden insult combining pussy and breakfast into one horrible mental image",
+      "Someone who is simultaneously a twat and a waffle — crunchy on the outside, awful throughout",
+      "The brunch-themed profanity that proved the internet can ruin any food"
     ]
   },
   {
     "word": "dickbag",
     "definitions": [
-      "A bag of dicks, or a person who carries the energy of one",
-      "Someone whose entire personality fits in a scrotum-shaped satchel",
-      "A container for penises, or a human being who behaves like one"
+      "A sack stuffed with dicks, or a person who carries that exact energy everywhere",
+      "Someone whose entire personality could fit inside a scrotum-shaped tote bag",
+      "A human trash bag but specifically for penises and disappointment"
     ]
   },
   {
     "word": "dirtbag",
     "definitions": [
-      "A filthy, contemptible person who belongs in a vacuum cleaner",
-      "Someone so grimy they make dumpsters look like fine dining",
-      "A lowlife whose personal hygiene and morals are equally nonexistent"
+      "A person so filthy they make the inside of a vacuum cleaner look like a spa",
+      "Someone whose hygiene and morals are in a dead heat for worst-in-show",
+      "A sleazy lowlife who looks like they were born in a dumpster and never left"
     ]
   },
   {
     "word": "sleazeball",
     "definitions": [
-      "A slimy person rolled into a perfect sphere of disgust",
-      "Someone so greasy they could lubricate industrial machinery",
-      "A round, rolling mass of sketchy behavior and questionable intentions"
+      "A greasy sphere of human filth who could lubricate a car engine by sitting on it",
+      "Someone so slimy that touching them counts as a sexual experience you didn't consent to",
+      "A walking oil slick shaped like a person who makes everyone feel like showering"
     ]
   },
   {
     "word": "ballbuster",
     "definitions": [
-      "A person who destroys testicles — metaphorically through nagging or literally through violence",
-      "Someone so demanding they pulverize your gonads with expectations",
-      "A tough, aggressive person who makes your nuts retreat into your body cavity"
+      "A person who crushes testicles through nagging, kicking, or sheer force of personality",
+      "Someone so demanding your balls retract into your body cavity for protection",
+      "The human nutcracker who pulverizes your gonads emotionally and sometimes physically"
     ]
   },
   {
     "word": "shitfuck",
     "definitions": [
-      "When 'shit' and 'fuck' combine like a Voltron of profanity",
-      "The verbal equivalent of stepping in dog crap while getting punched",
-      "A double-barreled swear for when single profanity just won't cut it"
+      "The Voltron of profanity — when shit and fuck combine into one perfect expletive",
+      "The word you scream when you step in dog shit while stubbing your toe on a fire hydrant",
+      "A double-barreled curse for situations where one swear word is embarrassingly insufficient"
     ]
   },
   {
     "word": "fucknut",
     "definitions": [
-      "A testicle with an attitude problem, or an incredibly stupid person",
-      "Someone whose brain is the size and consistency of a fucked-up walnut",
-      "An insult combining intercourse with tree fruit for maximum confusion"
+      "A testicle with an anger management problem and a learning disability",
+      "Someone whose brain has the size and texture of a walnut that's been fucked",
+      "The dumbest possible nut — and not the kind you eat, the kind that hangs"
     ]
   },
   {
     "word": "pissant",
     "definitions": [
-      "A tiny, insignificant person who is about as threatening as ant urine",
-      "Someone so small and worthless they make ants look impressive",
-      "A pathetic creature whose impact on the world is equivalent to insect pee"
+      "A person so pathetically tiny and insignificant that ant urine outranks them",
+      "Someone whose entire contribution to the universe is less than an insect's piss",
+      "A worthless speck of nothing who makes bacteria look important"
     ]
   },
   {
     "word": "buttplug",
     "definitions": [
-      "A device inserted into the rectum for pleasure, or a really annoying person",
-      "The cork for your butt — keeping everything in place since ancient Rome",
-      "Someone so insufferable they function as an anal obstruction"
+      "A silicone cork for your asshole that keeps the party going in your rectum",
+      "The stopper that turns your butt into a sealed container of bad decisions",
+      "A rectal plug-in device, or the coworker who is a pain in the ass 24/7"
     ]
   },
   {
     "word": "peckerhead",
     "definitions": [
-      "A person whose head is a pecker — both in shape and usefulness",
-      "A dickhead by another name, equally phallic and equally stupid",
-      "Someone whose cranium resembles and functions like a woodpecker — always banging into things"
+      "A dickhead by another name — skull shaped like an uncircumcised cock",
+      "Someone whose brain is a pecker and whose pecker has more brain cells",
+      "A penis-skulled moron who headbutts through life like a fleshy battering ram"
     ]
   },
   {
     "word": "nutjob",
     "definitions": [
-      "A crazy person whose sanity left the building and never came back",
-      "Someone whose mental state is a full-time occupation of insanity",
-      "A person so unhinged their nuts have completely detached"
+      "A person whose sanity packed its bags and moved to another continent",
+      "Someone so mentally unhinged their nuts have literally detached from reality",
+      "A crazy bastard whose brain is just two testicles arguing with each other"
     ]
   },
   {
     "word": "fartbox",
     "definitions": [
-      "Your butt — the box from which farts are dispensed",
-      "The rectal region, rebranded as a container for gas",
-      "An anus, described as a flatulence vending machine"
+      "Your asshole — the gas-dispensing vending machine between your cheeks",
+      "A rectum rebranded as a methane shipping container",
+      "The box that produces farts — accepting deposits of beans and broken dreams since birth"
     ]
   },
   {
     "word": "crotchrot",
     "definitions": [
-      "A horrifying infection in the genital region that makes you walk funny",
-      "When your privates start decomposing while still attached to your body",
-      "The STI that turns your crotch into a biohazard zone"
-    ]
-  },
-  {
-    "word": "jizz",
-    "definitions": [
-      "Semen — the sticky substance that ruins socks and relationships equally",
-      "Man milk, baby gravy, the goo of creation",
-      "The ejaculatory fluid that has stained more mattresses than coffee ever will"
+      "When your genitals start decomposing while still attached to your body",
+      "The STI that turns your crotch into a biohazard zone with its own EPA warning",
+      "A genital fungal jungle so gnarly it has its own food chain and weather system"
     ]
   },
   {
     "word": "schlong",
     "definitions": [
-      "A Yiddish-derived word for a big ol' penis",
-      "A dong of considerable size — the kind that enters a room before its owner",
-      "A large penis, borrowed from Yiddish because English needed more dick words"
+      "A Yiddish word for a massive hog — the kind that enters a room five seconds before its owner",
+      "A penis so big it needs its own passport and seat on the airplane",
+      "Dick, but make it sound ethnic and enormous — which is exactly what it is"
     ]
   },
   {
     "word": "buttcrack",
     "definitions": [
-      "The crevasse between your cheeks that plumbers proudly display",
-      "Nature's coin slot located on your posterior",
-      "The vertical smile on your backside that peeks out above low-rise jeans"
+      "The great canyon between your cheeks that plumbers display like a public service announcement",
+      "Nature's coin slot — insert quarter, receive nothing but regret and a whiff of swamp",
+      "The vertical smile on your backside that peeks out to say hello above every pair of low-riders"
     ]
   },
   {
     "word": "crotchgoblin",
     "definitions": [
-      "A child — the tiny monster that crawled out of someone's crotch",
-      "An affectionate term for a baby, referencing its unholy origin point",
-      "A small human produced by genitals who then proceeds to ruin your life for 18 years"
+      "A screaming demon that clawed its way out of someone's genitals and now demands chicken nuggets",
+      "A child — the tiny crotch monster that ruins your body, your sleep, and your bank account",
+      "A small human produced by fuck juice who proceeds to destroy your life for two decades"
     ]
   },
   {
     "word": "shitcan",
     "definitions": [
-      "To throw something in the trash, or the trash can itself",
-      "To fire someone so hard they land in a garbage receptacle",
-      "A can of shit, a toilet, or the act of discarding something worthless"
+      "To hurl something or someone into the garbage where they belong",
+      "A toilet, a trash can, or the act of firing someone into the unemployment dumpster",
+      "The receptacle where shit goes — whether it's feces, your resume, or your dignity"
     ]
   },
   {
     "word": "fuckboy",
     "definitions": [
-      "A man who treats relationships like a drive-through — fast, cheap, and regrettable",
-      "A dude who ghosts after hookups and has 'not looking for anything serious' tattooed on his soul",
-      "A male who leads people on like it's an Olympic sport and he's going for gold"
+      "A dude who ghosts after cumming and has 'not looking for anything serious' as a personality",
+      "A man who treats women like a drive-through — orders, finishes fast, and disappears",
+      "The human equivalent of a dick pic — unwanted, unsolicited, and disappointing up close"
     ]
   },
   {
     "word": "manwhore",
     "definitions": [
-      "A man who sleeps around like it's his second job — no benefits, just cardio",
-      "The male version of promiscuity, now with extra cologne and zero commitment",
-      "A dude whose body count is higher than his credit score"
+      "A man who fucks around so much his dick has its own frequent flyer program",
+      "A dude whose body count is higher than his credit score and his IQ combined",
+      "The male slut — all the promiscuity, none of the self-awareness"
     ]
   },
   {
     "word": "cumguzzler",
     "definitions": [
-      "Someone who drinks semen like it's a refreshing beverage",
-      "A person who consumes baby batter with the enthusiasm of a frat boy at a keg",
-      "An individual whose thirst for man juice is truly unquenchable"
+      "Someone who chugs jizz like it's a protein shake at a gym for degenerates",
+      "A person whose throat is a semen freeway with no speed limit and no exits",
+      "An enthusiastic baby-batter drinker who has never once considered spitting"
     ]
   },
   {
     "word": "cockblock",
     "definitions": [
-      "The act of preventing someone from getting laid through deliberate or accidental interference",
-      "A person who destroys your chances of hooking up like a genital goalie",
-      "The worst friend at the bar who ruins your game at the critical moment"
+      "The act of snatching someone's nut away like a genital goalie making a save",
+      "A person who destroys your chances of getting laid with the precision of a surgical strike",
+      "The worst friend at the bar who appears like a boner-killing apparition at the worst moment"
     ]
   },
   {
     "word": "titjob",
     "definitions": [
-      "Using breasts as a fleshy highway for a penis road trip",
-      "The act of motorboating in reverse — letting the boat come to you",
-      "Mammary intercourse — when the chest becomes a playground"
+      "Sliding your cock through a pair of tits like a fleshy hot dog bun",
+      "Using breasts as a lubed-up highway for your dick to commute on",
+      "Mammary intercourse — the scenic route between second and third base"
     ]
   },
   {
     "word": "handjob",
     "definitions": [
-      "Manual stimulation of the penis — the gateway drug of sexual acts",
-      "A hand-powered orgasm delivery system — humanity's oldest technology",
-      "When someone else does what you've been doing alone since puberty"
+      "When someone else does what you've been doing alone since you were twelve",
+      "A hand-powered orgasm machine — humanity's oldest and most reliable technology",
+      "Manual dick stimulation that ranges from 'pretty good' to 'are you juicing an orange'"
     ]
   },
   {
     "word": "blowjob",
     "definitions": [
-      "Oral stimulation of the penis despite containing zero actual blowing",
-      "The most misleadingly named sex act — nobody is blowing anything",
-      "Mouth-to-genital resuscitation that brings the dead back to life"
+      "Mouth-to-cock resuscitation that nobody is actually blowing during",
+      "The most misleadingly named sex act — zero blowing, maximum slobbering",
+      "Getting your dick sucked like it owes someone money"
     ]
   },
   {
     "word": "buttfuck",
     "definitions": [
-      "Anal intercourse described with the subtlety of a sledgehammer",
-      "To have sex via the back door — the tradesman's entrance",
-      "Penetration of the posterior — when the front door is closed"
+      "Ramming your dick into someone's shit tunnel with enthusiasm and lube",
+      "Anal penetration described with the subtlety of a freight train",
+      "Taking the dirt road because the highway was closed or you just like the scenery"
     ]
   },
   {
     "word": "skullfuck",
     "definitions": [
-      "An aggressive oral sex act that involves thrusting into someone's face hole",
-      "When oral becomes a full-contact sport involving skull momentum",
-      "Vigorous face-based intercourse that prioritizes enthusiasm over comfort"
+      "Jackhammering someone's face hole so hard their brain rattles",
+      "Aggressive oral where the thrust-to-gag ratio is completely off the charts",
+      "Treating someone's skull like a fleshlight with eye contact"
     ]
   },
   {
     "word": "fucktard",
     "definitions": [
-      "A portmanteau of profanity and cognitive insult — the laziest compound swear",
-      "Someone whose stupidity is so advanced it requires a swear word prefix",
-      "An idiot who has achieved a doctoral level of fuckery"
+      "A portmanteau of profanity and stupidity that captures the essence of total human failure",
+      "Someone so cosmically dumb they needed a swear word surgically attached to describe it",
+      "An idiot operating on a level of fuckery that science hasn't classified yet"
     ]
   },
   {
     "word": "tardwagon",
     "definitions": [
-      "A vehicle filled with idiots heading toward disaster at full speed",
-      "The bus that picks up everyone who failed at life — standing room only",
-      "A transportation metaphor for a group of people making terrible decisions together"
+      "A vehicle packed to the brim with idiots careening toward disaster at full speed",
+      "The short bus that picks up everyone who flunked at life — standing room only",
+      "A carload of morons making terrible decisions in unison like a dumbass carpool"
     ]
   },
   {
     "word": "shitpants",
     "definitions": [
-      "Someone who has literally or figuratively soiled their trousers",
-      "A coward whose fear manifests as fecal incontinence",
-      "A person whose pants contain more shit than their brain — which is saying something"
+      "Someone who literally crapped their pants and now has to waddle home in shame",
+      "A coward whose fear response goes directly to their bowels and out their ass",
+      "Trousers filled with a warm, fresh log — the fashion statement nobody asked for"
     ]
   },
   {
     "word": "pissbaby",
     "definitions": [
-      "A whiny person who cries about everything like a urine-soaked infant",
-      "Someone who complains so much they might as well be sitting in a wet diaper",
-      "A crybaby whose tears are indistinguishable from pee"
+      "A whiny little bitch who cries about everything like a urine-soaked infant",
+      "Someone who throws tantrums so wet and pathetic they might as well be pissing themselves",
+      "A crybaby whose tears, personality, and underwear are all soaked in piss"
     ]
   },
   {
     "word": "cumshot",
     "definitions": [
-      "The money shot — the grand finale of adult entertainment",
-      "An ejaculatory projectile launched with varying degrees of accuracy",
-      "The visual evidence that the mission has been accomplished"
+      "The money shot — a rope of jizz launched with the accuracy of a drunk sniper",
+      "The grand sticky finale that porn built an entire industry around",
+      "An ejaculatory projectile that lands on faces, sheets, and ceilings with zero discrimination"
     ]
   },
   {
     "word": "creampie",
     "definitions": [
-      "An internal ejaculation that is NOT a delicious bakery item",
-      "When the baby batter gets delivered directly to the source",
-      "A dessert term hijacked by the adult film industry and ruined forever"
+      "Busting a fat nut inside someone and letting gravity sort out the rest",
+      "An internal cumshot that ruined a perfectly innocent dessert name forever",
+      "When your pull-out game is nonexistent and Plan B becomes Plan A"
     ]
   },
   {
     "word": "wetfart",
     "definitions": [
-      "A fart that brings moisture — the shart's less committed cousin",
-      "Flatulence with a splash of liquid that makes you clench in terror",
-      "The gaseous emission that makes you immediately waddle to the bathroom"
+      "A fart that brings a splash of hot liquid to the party your underwear didn't RSVP to",
+      "Flatulence with a moisture payload that makes you freeze and assess the damage",
+      "The gas that makes you immediately clench and waddle to the nearest bathroom"
     ]
   },
   {
     "word": "pissflap",
     "definitions": [
-      "Vulgar British slang for labia, or a useless annoying person",
-      "A flap near the piss — anatomically crude and conversationally devastating",
-      "The most unromantic way to describe female genitalia in the English language"
+      "Vulgar British slang for labia — the most unromantic thing you can call a vagina",
+      "The meaty curtains flanking the piss hole described with zero poetic license",
+      "Genital flaps named after urine — because the British hate romance"
     ]
   },
   {
     "word": "feltch",
     "definitions": [
-      "A sex act so disgusting that describing it could end friendships",
-      "To suck ejaculate out of a body cavity — yes, people looked this up",
-      "The act that exists solely to traumatize people who Google it"
+      "A sex act so vile that describing it in detail should require a signed waiver and therapy",
+      "Sucking cum out of someone's ass with a straw — congratulations, you can never unknow this",
+      "The word that exists solely to traumatize anyone foolish enough to Google it at work"
     ]
   },
   {
     "word": "frotting",
     "definitions": [
-      "Rubbing genitals together like you're trying to start a fire",
-      "Non-penetrative genital friction — basically dry humping with skin contact",
-      "When two sets of junk meet and just vibe against each other"
+      "Rubbing dicks together like you're trying to start a fire with meat sticks",
+      "Genital-to-genital friction that's basically sword fighting but naked and moist",
+      "When two sets of junk meet and just grind against each other like fleshy tectonic plates"
     ]
   },
   {
     "word": "ballgag",
     "definitions": [
-      "A BDSM device that puts a ball in your mouth to shut you up",
-      "An oral restraint that turns dirty talk into incomprehensible mumbling",
-      "The kink accessory that makes every sentence sound like you're at the dentist"
+      "A rubber ball jammed in your mouth so your screams come out as kinky mumbles",
+      "The BDSM accessory that turns dirty talk into incomprehensible drooling",
+      "A mouth plug that makes every sentence sound like you're gargling tennis balls"
     ]
   },
   {
     "word": "cumbucket",
     "definitions": [
-      "A receptacle for semen, human or otherwise",
-      "A derogatory term for someone who collects ejaculate like a hobby",
-      "A container whose purpose is as crude as its name suggests"
+      "A receptacle for collecting jizz — human or hardware store variety",
+      "A derogatory term for someone who collects semen like it's Pokemon — gotta catch it all",
+      "A sperm depository with no quality control and an open-door policy"
     ]
   },
   {
     "word": "cumrag",
     "definitions": [
-      "The designated cleanup cloth for post-masturbation maintenance",
-      "A rag that has seen more action than most people's dating lives",
-      "The crusty fabric artifact that lurks under every teenage boy's bed"
+      "The crusty designated cleanup cloth that lives in shame next to every lonely man's bed",
+      "A rag so saturated with dried nut it could stand up on its own and walk away",
+      "The fabric artifact under your mattress that has seen more action than your Tinder profile"
     ]
   },
   {
     "word": "dickslap",
     "definitions": [
-      "To strike someone with your penis as a power move",
-      "The act of wielding your member as a fleshy weapon of humiliation",
-      "A penile smack that asserts dominance in the most absurd way possible"
+      "Whipping your cock across someone's face like a fleshy billy club of dominance",
+      "The act of slapping someone with your penis to assert the most absurd form of authority",
+      "A meaty face smack that says 'I own this moment and everything in it'"
     ]
   },
   {
     "word": "titfuck",
     "definitions": [
-      "Using breasts as a fleshy slip-n-slide for a penis",
-      "Mammary intercourse — the act of parking between the twin peaks",
-      "Chest-based fornication that requires adequate cleavage and optimism"
+      "Ramming your dick between a pair of oiled-up tits like a fleshy slip-n-slide",
+      "Using breasts as a cock canyon and going to town like it's rush hour",
+      "Chest-based intercourse that requires adequate cleavage, lube, and low standards"
     ]
   },
   {
     "word": "deepthroat",
     "definitions": [
-      "Taking a penis all the way to the base like a sword swallower at a circus",
-      "The oral sex move that triggers gag reflexes and earns respect simultaneously",
-      "Swallowing a cock to the hilt — named after the most famous porn film ever"
+      "Swallowing a cock to the balls like a sword swallower at a very adult circus",
+      "Taking an entire dick down your throat until your nose hits pubes",
+      "The oral sex power move that triggers gag reflexes and earns undying respect"
     ]
   },
   {
     "word": "guzzle",
     "definitions": [
-      "To drink eagerly, usually referring to something you shouldn't be chugging",
-      "Swallowing massive quantities of fluid with zero shame",
-      "Consuming liquids with the enthusiasm of a camel at an oasis"
-    ]
-  },
-  {
-    "word": "gash",
-    "definitions": [
-      "Crude slang for a vagina that sounds like it belongs in a horror movie",
-      "A wound or a vulva — context determines if you need stitches or a date",
-      "The least romantic word for female genitalia in the English language"
-    ]
-  },
-  {
-    "word": "cunt",
-    "definitions": [
-      "The nuclear bomb of English profanity — handle with extreme care",
-      "Australia's favorite term of endearment that gets you punched in America",
-      "A word so powerful it can silence an entire room in 0.3 seconds"
+      "To chug fluids with the shame-free enthusiasm of a frat boy at a keg stand",
+      "Swallowing something so fast and eagerly it makes bystanders uncomfortable",
+      "Drinking with zero dignity — usually beer, sometimes worse"
     ]
   },
   {
     "word": "minge",
     "definitions": [
-      "British slang for vagina that sounds like a small rodent",
-      "The lady garden, described with the elegance of a wet cat",
-      "A vulva, as named by people who eat beans on toast for breakfast"
+      "British for vagina that sounds like a disease you'd catch from a wet towel",
+      "The lady garden described by people who eat baked beans for breakfast",
+      "A cooch by any other name — specifically the most unappetizing British name possible"
     ]
   },
   {
     "word": "snatch",
     "definitions": [
-      "Slang for vagina, or the act of grabbing something quickly",
-      "A crude word for lady parts that also describes a weightlifting move",
-      "The vulva, described as if it might grab you back"
+      "Slang for pussy that implies it might grab you back if you're not careful",
+      "A vagina described as if it's a Venus flytrap waiting to strike",
+      "The only word that's simultaneously a weightlifting term, a heist movie, and a crotch"
     ]
   },
   {
     "word": "cooch",
     "definitions": [
-      "Slang for vagina that sounds like a couch you wouldn't want to sit on",
-      "The hooch, the coochie — the region below the belt and above the thigh",
-      "A casual term for female genitalia that your brain autocorrects to 'pooch'"
-    ]
-  },
-  {
-    "word": "poon",
-    "definitions": [
-      "Vulgar slang for vagina that peaked in popularity around 2005",
-      "Lady bits, referenced exclusively by men who definitely don't get any",
-      "A crude term for female genitalia popularized by terrible comedy movies"
+      "A vagina nicknamed like it's a dog breed nobody wants to adopt",
+      "The hooch, the coochie — the bermuda triangle between a woman's thighs",
+      "Casual slang for pussy that sounds like a sound effect from a cartoon"
     ]
   },
   {
     "word": "poontang",
     "definitions": [
-      "Slang for sex or female genitalia that sounds like an orange drink",
-      "A word for vagina that inexplicably has 'tang' in it",
-      "Sexual intercourse described with all the grace of a frat house chant"
+      "Pussy that sounds like an off-brand orange drink from the dollar store",
+      "A word for sex or vagina that your creepy uncle uses at Thanksgiving",
+      "Intercourse described with all the grace of a frat house mating call"
     ]
   },
   {
     "word": "booty",
     "definitions": [
-      "A butt, treasure, or what pirates and Tinder dates are both after",
-      "The posterior — celebrated in song, worshipped in yoga pants",
-      "An ass so good it counts as plunder"
+      "An ass so magnificent pirates would sail across oceans to plunder it",
+      "The posterior worshipped in song, yoga pants, and every rap video since 1992",
+      "A butt that deserves its own Instagram account and a lifetime achievement award"
     ]
   },
   {
     "word": "dumptruck",
     "definitions": [
-      "A massive, impressive posterior that could haul emotional baggage",
-      "An ass so large it has its own zip code and gravitational field",
-      "A butt of industrial proportions — built for sitting, designed for staring"
+      "An ass so colossal it has its own gravitational field and area code",
+      "A posterior of industrial proportions that could haul cargo and end marriages",
+      "A butt so massive it qualifies as a commercial vehicle in most states"
     ]
   },
   {
     "word": "skidmark",
     "definitions": [
-      "The brown racing stripe left in your underwear by an incomplete wipe",
-      "Evidence of poor bathroom technique preserved in cotton",
-      "The poop streak that tells your laundry machine it's going to be a rough cycle"
+      "The brown racing stripe in your underwear from a half-assed wipe job",
+      "Poop residue preserved in cotton like the world's most disgusting fossil",
+      "The dookie streak that makes your washing machine question its purpose in life"
     ]
   },
   {
     "word": "shithole",
     "definitions": [
-      "A terrible place, or literally a hole full of shit",
-      "The worst location imaginable — your apartment, a gas station bathroom, or actual hell",
-      "A place so awful it makes a porta-potty at a music festival look like the Ritz"
+      "A place so awful that literal shit holes are an upgrade by comparison",
+      "Your apartment, a gas station bathroom, or any place where hope goes to die",
+      "A dump so disgusting it would make a porta-potty at a chili festival look like the Ritz"
     ]
   },
   {
     "word": "crapshoot",
     "definitions": [
-      "A total gamble with terrible odds — like trusting a fart after Indian food",
-      "A risky situation where the outcome is pure random bullshit",
-      "Rolling the dice on something that will probably end in crap"
+      "A total gamble where the odds are shit and the outcome is usually shittier",
+      "Rolling the dice knowing full well you're going to crap out — literally",
+      "Trusting a fart after gas station sushi — the ultimate risk-reward scenario"
     ]
   },
   {
     "word": "bumblefuck",
     "definitions": [
-      "A place so remote and rural that even GPS gives up",
-      "The middle of nowhere — where cousins date and banjos play themselves",
-      "A fictional town representing the most backwoods location imaginable"
+      "A place so remote that GPS cries, cell service commits suicide, and God forgot it exists",
+      "The middle of bumfuck nowhere — where cousins date and WiFi is a myth",
+      "A town so far from civilization that your mail gets delivered by a confused raccoon"
     ]
   },
   {
     "word": "assblast",
     "definitions": [
-      "Explosive diarrhea that should be classified as a natural disaster",
-      "When your ass becomes a jet engine powered by bad decisions",
-      "A rectal explosion of such force it should require a blast radius warning"
+      "Explosive diarrhea with enough force to qualify as a weapon of mass destruction",
+      "When your ass becomes a jet engine fueled by bad burritos and broken promises",
+      "A rectal detonation so violent it should require a FEMA response team"
     ]
   },
   {
     "word": "shitsplat",
     "definitions": [
-      "The sound and visual of feces hitting a surface at velocity",
-      "What happens when diarrhea meets a toilet bowl with too much enthusiasm",
-      "A splatter of crap — used to describe both a stain and a worthless person"
+      "The sound and visual of diarrhea hitting porcelain at mach speed",
+      "When your liquid shit hits the bowl with the velocity of a paintball gun",
+      "A fecal Jackson Pollock painting created on the inside of the toilet bowl"
     ]
   },
   {
     "word": "cockring",
     "definitions": [
-      "A ring worn around the penis for enhanced performance",
-      "Jewelry for your junk — the wedding band for your one-eyed monster",
-      "A genital accessory that puts the 'hard' in hardware"
+      "Jewelry for your dick that keeps you hard enough to hammer nails",
+      "A genital choker that squeezes your cock until it turns purple and throbs like a heartbeat",
+      "The wedding band for your one-eyed monster — till orgasm do us part"
     ]
   },
   {
     "word": "dildo",
     "definitions": [
-      "A phallic pleasure device, or what you call someone acting like a fake dick",
-      "An artificial penis for recreational use — batteries not always required",
-      "A rubber replica of a cock, or the guy who thinks he's a tough guy but isn't"
+      "A rubber cock substitute for when the real thing is unavailable, disappointing, or attached to an asshole",
+      "An artificial dick that outperforms most real ones and never asks you to call it back",
+      "A fake penis that's been outselling real men since someone invented rubber"
     ]
   },
   {
     "word": "buttchug",
     "definitions": [
-      "Consuming alcohol rectally because your mouth was apparently too mainstream",
-      "The fraternity tradition of drinking beer through the wrong end",
-      "When someone bypasses the digestive system for a faster route to intoxication"
+      "Pouring booze up your ass because your mouth wasn't getting you wasted fast enough",
+      "The fraternity tradition of rectal alcohol absorption — getting shitfaced through your shitter",
+      "Bypassing your digestive system to speedrun alcohol poisoning through your ass"
     ]
   },
   {
     "word": "shitlips",
     "definitions": [
-      "A person whose mouth spews nothing but crap",
-      "Someone who talks so much garbage their lips must be coated in feces",
-      "Lips that have been metaphorically dipped in excrement from talking too much shit"
+      "A person whose mouth spews so much crap their lips have a permanent brown tint",
+      "Someone who talks so much shit their breath smells like a septic tank",
+      "Lips stained brown from a lifetime of talking out of their own ass"
     ]
   },
   {
     "word": "asscrack",
     "definitions": [
-      "The vertical canyon between your butt cheeks",
-      "The crevice that plumbers and low-rise jeans made famous",
-      "Nature's deepest valley, located conveniently on your backside"
+      "The Grand Canyon of your backside that plumbers proudly display as a public service",
+      "The sweaty crevice between your cheeks that eats underwear for breakfast",
+      "Nature's coin slot — full of lint, sweat, and the occasional surprise"
     ]
   },
   {
     "word": "fuckwad",
     "definitions": [
-      "A wad of fuck — a compressed ball of uselessness and profanity",
-      "An insult implying someone is a clump of sexual waste",
-      "A person so worthless they've been crumpled up like a used tissue of fuckery"
+      "A compressed ball of pure fuckery squeezed into the shape of a worthless human being",
+      "Someone so useless they're just a crumpled wad of jizz-soaked tissue",
+      "An insult for people who are the human equivalent of a used cum napkin"
     ]
   },
   {
     "word": "shitsmear",
     "definitions": [
-      "A streak of feces left on any surface as a brown calling card",
-      "The poop equivalent of a brush stroke — unwanted and unappreciated",
-      "A fecal streak that turns underwear into modern art nobody wants"
+      "A brown streak left on any surface like the world's most disgusting autograph",
+      "The fecal equivalent of a brush stroke — unwanted modern art in your underwear",
+      "A poop smear so persistent it becomes a permanent part of the fabric's identity"
     ]
   },
   {
     "word": "assgoblin",
     "definitions": [
-      "A mythical creature that lives in your butt and causes problems",
-      "A mischievous rectal imp responsible for untimely gas and discomfort",
-      "The tiny monster in your colon that decides when you need to fart in public"
+      "A tiny demon living in your rectum who decides when you fart during first dates",
+      "The mischievous imp in your colon who makes your stomach gurgle during job interviews",
+      "A mythical butt creature responsible for every poorly timed gas leak in human history"
     ]
   },
   {
     "word": "cockmonger",
     "definitions": [
-      "A dealer in dicks — someone who peddles penises as if at a medieval market",
-      "A person so obsessed with cock they could open a franchise",
-      "One who mongers the cock — a merchant of phallic proportions"
+      "A medieval-sounding dick dealer who peddles penises at the town square",
+      "Someone so obsessed with cock they could open a franchise and go public",
+      "A merchant of meat who traffics in dicks like a genital arms dealer"
     ]
   },
   {
     "word": "shitheel",
     "definitions": [
-      "A despicable person with feces on their shoe and malice in their heart",
-      "Someone so low they've stepped in their own crap and kept walking",
-      "A worthless individual who leaves a brown footprint wherever they go"
+      "A scumbag so low they've got fresh shit on their shoes and malice in their heart",
+      "Someone who tracks feces through life and never looks down to check",
+      "A despicable person who leaves a brown footprint on everything they touch"
     ]
   },
   {
     "word": "dickweasel",
     "definitions": [
-      "A sneaky, phallic-shaped pest of a human being",
-      "Someone who weasels their way through life dick-first",
-      "A small, conniving person who resembles a genital rodent"
+      "A sneaky, slippery, phallic-shaped weasel of a human being",
+      "A small, conniving dick-creature who weasels into situations and ruins them",
+      "Someone who combines the worst traits of a penis and a rodent into one insufferable package"
     ]
   },
   {
     "word": "turdburglar",
     "definitions": [
-      "Someone who steals turds, or more commonly, someone who ruins your bathroom time",
-      "A person who barges in while you're on the toilet — the ultimate violation",
-      "One who burgles turds — the pettiest criminal in the scatological underworld"
+      "Someone who barges into your stall while you're mid-shit — the worst kind of criminal",
+      "A person who steals your bathroom time like a fecal cat burglar",
+      "The pettiest thief in the scatological underworld — stealing turds and dignity"
     ]
   },
   {
     "word": "cuntface",
     "definitions": [
-      "A face only a mother could love, described with nuclear-grade profanity",
-      "Someone whose facial expression permanently says 'I am a terrible person'",
-      "The insult you save for the person who truly earns it — combining genitalia with visage"
+      "A face so unbearable it required the nuclear option of facial insults",
+      "Someone whose mug is a permanent advertisement for why some people stay single",
+      "The insult you holster like a weapon and only deploy on people who truly deserve annihilation"
     ]
   },
   {
     "word": "fucktrumpet",
     "definitions": [
-      "A person who loudly broadcasts their stupidity like a brass instrument of failure",
-      "An idiot who toots their own horn while producing nothing but fuckery",
-      "A noisy moron — like a trumpet, but instead of music, it produces raw bullshit"
+      "A loud brass instrument of stupidity that blasts fuckery into every room",
+      "An idiot who toots their own horn but only produces the sound of raw bullshit",
+      "A noisy moron whose face-hole is a musical instrument tuned to the key of fuck"
     ]
   },
   {
     "word": "jizzmopper",
     "definitions": [
-      "A person whose job is cleaning up semen — the unsung hero of adult theaters",
-      "Someone relegated to cleaning up other people's messes, literally",
-      "The lowest rung on the employment ladder — armed only with a mop and broken dreams"
+      "The unsung hero of adult theaters — armed only with a mop and shattered dreams",
+      "A person whose career peaked at cleaning strangers' cum off theater seats",
+      "The lowest rung on the employment ladder — a professional nut-puddle janitor"
     ]
   },
   {
     "word": "buttwipe",
     "definitions": [
-      "Toilet paper, or a person with the same value and purpose",
-      "Someone so useless they exist solely to clean up crap",
-      "An insult implying a person's life purpose is wiping butts"
+      "Toilet paper, or a person with the exact same purpose and value",
+      "A human being whose entire existence is dedicated to absorbing other people's ass waste",
+      "Someone so useless they're literally just an ass-cleaning consumable"
     ]
   },
   {
     "word": "twatknacker",
     "definitions": [
-      "A British compound insult that combines two vulgarities into one glorious word",
-      "Someone who knackers twats — exhausting and destroying everything pleasant",
-      "A person so awful they ruin vaginas and spirits simultaneously"
+      "A British compound insult so vulgar it sounds like a medieval torture device for genitals",
+      "Someone who exhausts and destroys twats with the efficiency of a wrecking ball",
+      "A person so awful they ruin vaginas, spirits, and conversations simultaneously"
     ]
   },
   {
     "word": "shitbreath",
     "definitions": [
-      "A person whose mouth smells like they've been eating feces for breakfast",
-      "Halitosis so severe it could be classified as a biological weapon",
-      "Breath so bad it smells like something crawled into their mouth and died twice"
+      "Halitosis so severe it smells like someone took a dump directly in their mouth",
+      "Breath that could peel paint, kill flowers, and end relationships from across the room",
+      "A mouth that smells like a sewer pipe connected directly to a septic tank"
     ]
   },
   {
     "word": "cocksplat",
     "definitions": [
-      "The sound a penis makes when it hits something, or a worthless person",
-      "A person who is the result of a poorly aimed ejaculation",
-      "An insult implying someone was conceived from a splatter rather than a loving embrace"
+      "A person who was clearly the result of a poorly aimed cumshot that hit the wrong egg",
+      "The sound of a dick slapping a surface — wet, meaty, and deeply unfortunate",
+      "Someone who exists because their father's pull-out game was tragically weak"
     ]
   },
   {
     "word": "pisswizard",
     "definitions": [
-      "A drunk who has achieved magical levels of intoxication",
-      "Someone so hammered they've transcended mere drunkenness into urine sorcery",
-      "A person who can drink their body weight in booze and still find the bathroom — a wizard"
+      "A drunk so legendary they've transcended mere alcoholism into piss-based sorcery",
+      "Someone who can drink their body weight in booze and still somehow find the bathroom",
+      "A urine mage who has mastered the dark art of getting hammered beyond human limits"
     ]
   },
   {
     "word": "fuckpuddle",
     "definitions": [
-      "A puddle of sexual fluids, or a person with the depth and value of one",
-      "The wet spot on the bed that nobody wants to sleep in",
-      "A shallow pool of regret left behind after a poor decision"
+      "The wet spot on the bed that nobody wants to sleep in after sex",
+      "A shallow puddle of combined sex fluids that marks where bad decisions happened",
+      "A person with the depth and value of a post-coital floor stain"
     ]
   },
   {
     "word": "shitswizzle",
     "definitions": [
-      "When crap gets stirred around like a cocktail nobody ordered",
-      "A fancy word for mixing feces — the worst bartender skill imaginable",
-      "To stir up shit in style — swizzle stick optional, terrible smell guaranteed"
+      "Stirring shit around like the world's worst bartender making a fecal cocktail",
+      "The act of mixing up a big batch of liquid turds — shaken, not stirred",
+      "A fancy way to say 'stirring shit up' that sounds like a terrible mixed drink"
     ]
   },
   {
     "word": "twatnozzle",
     "definitions": [
-      "A nozzle attached to a twat — a douche by any other name",
-      "Someone who sprays their terrible opinions everywhere like a genital fire hose",
-      "An insult that combines anatomy with plumbing for maximum impact"
+      "A genital fire hose that sprays terrible opinions in every direction at high pressure",
+      "Someone who spews bullshit from their mouth like a douche sprays from a nozzle",
+      "A cunt with a built-in spray attachment — maximum coverage, minimum value"
     ]
   },
   {
     "word": "nutslap",
     "definitions": [
-      "The act of slapping someone with testicles or slapping their testicles",
-      "A testicular assault that makes every man in the room wince",
-      "When balls meet face in a collision of dominance and discomfort"
+      "Whacking someone in the face with a swinging ballsack like a fleshy wrecking ball",
+      "A testicular assault that makes every man in the room involuntarily cross his legs",
+      "When balls meet face in a collision that establishes dominance through scrotal violence"
     ]
   },
   {
     "word": "fartsniffer",
     "definitions": [
-      "A person who enjoys inhaling flatulence like a sommelier of gas",
-      "Someone who appreciates their own brand a little too much",
-      "A brown-noser taken to a literal, gaseous extreme"
+      "A brown-noser so dedicated they literally inhale the boss's ass gas as a career move",
+      "Someone who huffs their own farts like a sommelier sampling a fine vintage",
+      "A person who enjoys the bouquet of flatulence the way normal people enjoy flowers"
     ]
   },
   {
     "word": "asspipe",
     "definitions": [
-      "Your rectum — the plumbing that handles your body's worst output",
-      "A terrible person who functions as a conduit for crap",
-      "The internal tubing that connects bad food to regrettable outcomes"
+      "Your rectum — the sewage pipeline that handles your body's most disgusting exports",
+      "A human waste conduit, or a person who functions as one for terrible opinions",
+      "The internal plumbing connecting bad food choices to catastrophic bathroom outcomes"
     ]
   },
   {
     "word": "cockgobbler",
     "definitions": [
-      "Someone who devours penis with the enthusiasm of a Thanksgiving turkey",
-      "A person who gobbles cock like a competitive eater at a hot dog contest",
-      "An enthusiastic oral performer who treats genitalia like a buffet"
+      "Someone who devours dick with the enthusiasm of a starving man at a hot dog contest",
+      "A person who inhales cock like they're trying to set a competitive eating record",
+      "An oral overachiever who treats every blowjob like it's the last meal on earth"
     ]
   },
   {
     "word": "shitwaffle",
     "definitions": [
-      "A waffle made of shit — breakfast is ruined and so is your day",
-      "A worthless person who combines the worst of feces with breakfast pastry",
-      "The scatological breakfast item nobody ordered but everyone deserves"
+      "A turd pressed into a waffle iron — the breakfast special from Satan's diner",
+      "A person so worthless they're a literal shit pastry nobody would eat even for free",
+      "The scatological brunch item that proves God abandoned the waffle menu"
     ]
   },
   {
     "word": "assgasket",
     "definitions": [
-      "The toilet seat cover that protects your cheeks from public restroom horrors",
-      "A paper shield between your butt and the sins of previous toilet users",
-      "The flimsy tissue barrier that provides psychological comfort in gas station bathrooms"
+      "The flimsy toilet seat cover that provides exactly zero actual protection from ass germs",
+      "A paper shield between your butt and the sins of every stranger who sat there before you",
+      "The world's most useless barrier — a tissue-thin lie between your ass and a gas station toilet"
     ]
   },
   {
     "word": "cuntmuffin",
     "definitions": [
-      "A vaginal pastry — the bakery item from hell's kitchen",
-      "An insult that makes muffins sound vulgar and vaginas sound delicious",
-      "Someone who combines the warmth of baked goods with the hostility of profanity"
+      "A vaginal pastry baked in hell's kitchen and served with a side of profanity",
+      "An insult that makes muffins sound vulgar and vaginas sound like baked goods",
+      "Someone whose personality is a warm, moist muffin of concentrated cuntishness"
     ]
   },
   {
     "word": "fuckwaffle",
     "definitions": [
-      "A waffle of fuckery — golden brown and full of bad decisions",
-      "Someone whose existence is a syrupy mess of sexual incompetence",
-      "The breakfast insult trifecta — because twatwaffle and shitwaffle needed a friend"
+      "A golden-brown waffle of concentrated fuckery drizzled with syrup of stupid",
+      "The breakfast insult trifecta — because twatwaffle and shitwaffle needed a dumber sibling",
+      "A crispy, useless carb of a human being who is both fucked and waffling at all times"
     ]
   },
   {
     "word": "dicksnot",
     "definitions": [
-      "Pre-ejaculate — the nasal discharge of the penis",
-      "The clear fluid that leaks from a cock like a runny nose in winter",
-      "Penile mucus that shows up uninvited and overstays its welcome"
+      "Pre-cum — the runny nose discharge of your dick that shows up before the main event",
+      "That clear sticky fluid your cock leaks when it's excited, like penile drool",
+      "The genital snot that dribbles out uninvited and stains your boxers"
     ]
   },
   {
     "word": "ballsweat",
     "definitions": [
-      "The testicular perspiration that makes summer a special kind of hell",
-      "Scrotal moisture that turns underwear into a swamp ecosystem",
-      "The salty dew that forms on your nuts when it's above 75 degrees"
+      "The salty nut dew that turns your underwear into a tropical swamp ecosystem",
+      "Scrotal perspiration so aggressive it welds your sack to your inner thigh",
+      "Testicular moisture that breeds its own species of bacteria in the summer heat"
     ]
   },
   {
     "word": "assgravy",
     "definitions": [
-      "The horrifying moisture that collects in your butt crack on a hot day",
-      "Posterior perspiration that turns your crack into a slip-n-slide",
-      "Butt sweat so prolific it achieves gravy-like consistency"
+      "The horrifying brown moisture that collects in your crack like a butt fondue",
+      "Ass sweat so thick and funky it achieves gravy-like viscosity and aroma",
+      "The warm, slippery sauce your butt cheeks produce on a hot day — nobody's recipe"
     ]
   },
   {
     "word": "raunch",
     "definitions": [
-      "Raw, filthy, unapologetically gross sexual energy",
-      "The quality of being so crude it circles back to being entertaining",
-      "Pure, distilled vulgarity — the essence of a locker room after a game"
+      "Pure, weapons-grade filth distilled into its most concentrated form",
+      "Raw, uncut vulgarity — the crack cocaine of gross-out humor",
+      "The essence of a locker room, a frat house, and a bathroom stall combined"
     ]
   },
   {
     "word": "raunchy",
     "definitions": [
-      "So dirty it makes a truck stop bathroom seem classy",
-      "Vulgar, crude, and sexually explicit — your uncle's sense of humor",
-      "The adjective for everything your mother warned you about"
+      "So filthy it makes a cum-stained truck stop bathroom seem classy by comparison",
+      "The adjective for everything your mother warned you about and your dad secretly watches",
+      "Dirty enough to make a porn director say 'tone it down a little'"
     ]
   },
   {
     "word": "smegma",
     "definitions": [
-      "The cheese-like buildup under foreskin that proves God has a sick sense of humor",
-      "Dick cheese in its final form — aged to perfection under unwashed skin",
-      "A substance so revolting that even saying the word makes people gag"
+      "Dick cheese aged to perfection under an unwashed foreskin like a forbidden Brie",
+      "The cottage cheese buildup on an uncircumcised cock that proves hygiene is not optional",
+      "A substance so revolting that even typing the word makes people physically gag"
     ]
   },
   {
     "word": "phlegm",
     "definitions": [
-      "The chunky mucus you hack up like a cat with a hairball",
-      "Throat slime that makes every cough sound like a horror movie sound effect",
-      "The green, viscous goo your lungs produce when you're sick — nature's Jell-O"
+      "The chunky lung oyster you hack up and spit out like a sick cat with a hairball",
+      "Thick green throat slime that makes every cough sound like a drain unclogging",
+      "Respiratory mucus so viscous you could use it as wallpaper paste"
     ]
   },
   {
     "word": "sploog",
     "definitions": [
-      "An onomatopoeia for ejaculation that captures both the sound and the regret",
-      "Semen, described by the noise it makes upon arrival",
-      "The wet, splattery sound of baby batter hitting an unintended surface"
+      "The wet, splattery sound of jizz hitting a surface it was never supposed to hit",
+      "An onomatopoeia for cumming that captures both the sound and the immediate regret",
+      "Nut described by the noise it makes upon impact — wet, messy, and deeply unfortunate"
     ]
   },
   {
     "word": "splooge",
     "definitions": [
-      "Semen ejected with enough force to require a cleanup crew",
-      "The full-length version of sploog — ejaculate with theatrical flair",
-      "Man goo that lands where it shouldn't, which is basically everywhere"
+      "A thick rope of cum launched with enough force to require a hazmat cleanup",
+      "Semen ejected with such theatrical velocity it deserves its own sound effects team",
+      "Man goo that lands on surfaces, fabrics, and ceilings with zero respect for gravity or decency"
     ]
   },
   {
     "word": "schlub",
     "definitions": [
-      "A lazy, sloppy, worthless person who peaked in middle school",
-      "Someone whose ambition and hygiene are equally nonexistent",
-      "A frumpy loser who makes couch potatoes look like athletes"
+      "A lazy, sloppy turd of a person who peaked in middle school and it's been downhill since",
+      "Someone whose ambition and hygiene are in a competition to see which can be lower",
+      "A frumpy loser who makes couch potatoes look like Olympic athletes"
     ]
   },
   {
     "word": "scrotum",
     "definitions": [
-      "The wrinkly coin purse that holds the family jewels hostage",
-      "Nature's ugliest handbag — saggy, hairy, and temperature-sensitive",
-      "The ballsack in its Sunday best — medical terminology for your nut sack"
+      "The wrinkliest, saggiest coin purse in nature — like a Shar-Pei had a baby with a coin bag",
+      "Medical terminology for your nut sack — the hairy, temperature-sensitive man-pouch",
+      "Nature's ugliest handbag — saggy, hairy, sweaty, and way too close to your asshole"
     ]
   },
   {
     "word": "boner",
     "definitions": [
-      "An erection that shows up at the worst possible moments",
-      "A hard penis, or the most embarrassing thing to get during a class presentation",
-      "The involuntary tent in your pants that has zero sense of timing"
+      "An erection with the worst possible timing — funerals, presentations, grandma's house",
+      "Your dick standing at full attention like an uninvited tent pole in your pants",
+      "A hard-on that shows up unannounced and refuses to leave no matter how hard you think about baseball"
     ]
   },
   {
     "word": "stiffy",
     "definitions": [
-      "An erection described in the most childish way possible",
-      "A hard-on that sounds like a board game piece",
-      "When your penis stands at attention like an enthusiastic soldier"
+      "An erection described like a children's board game piece that got lost in your pants",
+      "A hard cock that sounds like something you'd name a puppy",
+      "When your dick goes full rigor mortis and pitches a tent visible from space"
     ]
   },
   {
     "word": "woody",
     "definitions": [
-      "An erection that sounds like a cartoon character's name",
-      "A boner with a folksy, log-cabin energy",
-      "Morning wood's formal title — when your penis wakes up before you do"
-    ]
-  },
-  {
-    "word": "chub",
-    "definitions": [
-      "A half-erection — your dick is interested but not committed",
-      "The semi-boner that appears when you're slightly aroused but mostly confused",
-      "When your penis goes from flaccid to curious but not fully invested"
+      "An erection named after a cartoon cowboy — there's a snake in your pants",
+      "Morning wood's fancy name — when your dick wakes up harder than your work ethic",
+      "A boner with folksy energy — sturdy, upright, and absolutely unwelcome at breakfast"
     ]
   },
   {
     "word": "flaccid",
     "definitions": [
-      "A soft, limp penis that has given up on life",
-      "The opposite of hard — your dick in power-saving mode",
-      "When your member hangs like a sad sock puppet with no hand inside it"
+      "A soft, limp, pathetic dick hanging like a sad windsock on a windless day",
+      "Your cock in power-saving mode — floppy, defeated, and pointing at the floor",
+      "When your member has all the structural integrity of a wet noodle"
     ]
   },
   {
     "word": "throb",
     "definitions": [
-      "The pulsating sensation of an aroused penis announcing its intentions",
-      "When your dick has a heartbeat stronger than your actual heart",
-      "The rhythmic pounding of blood into your genitals like a bass drum solo"
+      "The angry pulsation of a rock-hard cock demanding immediate attention",
+      "When your dick has a heartbeat stronger than your actual heart and twice the ambition",
+      "The rhythmic pounding of blood filling your junk like a bass drum at a death metal concert"
     ]
   },
   {
     "word": "clunge",
     "definitions": [
-      "British slang for vagina that sounds like a plumbing emergency",
-      "Lady parts, as described by lads who probably haven't seen any",
-      "A vulva described with the elegance of a clogged drain"
-    ]
-  },
-  {
-    "word": "muff",
-    "definitions": [
-      "A hairy vagina, or a hand warmer — one keeps your fingers warm, the other keeps your face warm",
-      "An ungroomed lady garden that channels 1970s energy",
-      "A bush so thick it could hide a small animal"
+      "British slang for pussy that sounds like a plumbing emergency in a council flat",
+      "A vagina described by lads who definitely haven't been near one in months",
+      "Lady parts named after the sound of a clogged toilet — peak British romance"
     ]
   },
   {
     "word": "gusher",
     "definitions": [
-      "A person who squirts with the force of a broken fire hydrant",
-      "Female ejaculation of such volume it requires a splash zone warning",
-      "When arousal produces a waterfall that threatens the mattress warranty"
+      "A squirter so powerful she needs splash zone warnings like a SeaWorld show",
+      "Female ejaculation with the flow rate of a broken fire hydrant",
+      "When arousal produces a waterfall so intense it voids the mattress warranty instantly"
     ]
   },
   {
     "word": "squirt",
     "definitions": [
-      "Female ejaculation — the geyser that divides scientists and excites everyone else",
-      "When a woman's orgasm comes with a free water feature",
-      "A tiny person, or the act of female ejaculation — context matters greatly"
+      "Female ejaculation — the geyser that divides scientists and soaks mattresses",
+      "When a woman cums so hard she power-washes everything in a three-foot radius",
+      "The vaginal Old Faithful that erupts without warning and drowns the sheets"
     ]
   },
   {
     "word": "felch",
     "definitions": [
-      "A sex act so vile that describing it should require a signed waiver",
-      "To suck fluids from a body cavity post-coitus — you asked, you regret it",
-      "The word that exists purely to horrify anyone who looks up its meaning"
+      "Sucking cum out of someone's freshly-fucked asshole — and yes, people actually do this",
+      "The sex act so vile that even writing its definition feels like committing a crime",
+      "A word that exists purely to destroy the innocence of anyone who Googles it"
     ]
   },
   {
     "word": "pegging",
     "definitions": [
-      "When a woman uses a strap-on to penetrate a man's backdoor",
-      "Role reversal in the bedroom — she wears the pants and the penis",
-      "The act where she drives the stick shift and he rides passenger"
+      "When she straps on a rubber cock and gives him a taste of his own medicine up the ass",
+      "Role reversal in the bedroom — she wears the dick and he takes it like a champ",
+      "The act where she drives the stick shift directly into his rear bumper"
     ]
   },
   {
     "word": "teabag",
     "definitions": [
-      "Dipping your balls into someone's mouth like a testicular Earl Grey",
-      "The act of lowering your scrotum onto someone's face as a power move",
-      "A gaming victory ritual or a sexual act — both involve dominance and dangling"
+      "Dipping your sweaty balls into someone's mouth like a hairy Earl Grey",
+      "Lowering your scrotum onto someone's face as the ultimate power move in gaming and sex",
+      "The act of dunking your nuts on someone like a testicular slam dunk"
     ]
   },
   {
     "word": "motorboat",
     "definitions": [
-      "Putting your face between breasts and shaking your head while making boat noises",
-      "The breast-based activity that sounds like a marine vessel and feels like heaven",
-      "Brrrrring your lips between a pair of tits like an outboard motor"
-    ]
-  },
-  {
-    "word": "cuck",
-    "definitions": [
-      "Short for cuckold — a man who watches his partner get railed by someone else",
-      "The ultimate insult for a man with zero backbone or bedroom authority",
-      "A person who gets off on their own humiliation — or an internet insult for anyone you disagree with"
-    ]
-  },
-  {
-    "word": "simp",
-    "definitions": [
-      "A man who degrades himself for female attention that will never come",
-      "Someone who puts a person on a pedestal so high they need a telescope to see them",
-      "A sucker idolizing mediocre partners — doing the most for the least"
+      "Burying your face in tits and going brrrrr like an outboard motor having a seizure",
+      "The act of shaking your head between boobs so fast you generate actual wind power",
+      "Titty face-diving with engine sounds — the most dignified thing a man can do with his mouth"
     ]
   },
   {
     "word": "shlong",
     "definitions": [
-      "An alternative spelling of schlong for people who can't spell schlong",
-      "A big dick energy word for a big dick",
-      "A penis of significant proportions — the kind that needs its own introduction"
+      "A big fat hog spelled wrong by people too excited about the dick to check their spelling",
+      "An alternate spelling of schlong for when your meat is too large for proper grammar",
+      "A massive dong that doesn't need correct spelling to command respect"
     ]
   },
   {
     "word": "foreskin",
     "definitions": [
-      "The penis hoodie that keeps your tip cozy and warm",
-      "The turtleneck sweater for your cock that half the population has been robbed of",
-      "Nature's cock sock — the retractable skin sleeve that divides entire nations"
+      "The dick hoodie that keeps your tip warm, moist, and controversial",
+      "Nature's cock turtleneck — retractable, divisive, and a smegma factory if neglected",
+      "The penis sleeve that half the world's population got robbed of at birth"
     ]
   },
   {
     "word": "smeghead",
     "definitions": [
-      "A Red Dwarf insult meaning someone whose head is made of dick cheese",
-      "A person so foul their skull contains penile discharge",
-      "The sci-fi insult that taught a generation what smegma was"
+      "A person whose skull is packed with dick cheese instead of a functional brain",
+      "A Red Dwarf insult meaning your head is literally made of unwashed cock gunk",
+      "The sci-fi insult that taught an entire generation what smegma was and ruined their day"
     ]
   },
   {
     "word": "goatse",
     "definitions": [
-      "The internet shock image that traumatized a generation of web surfers",
-      "A man stretching his rectum to impossible dimensions — once seen, never forgotten",
-      "The original internet shock content that proved curiosity kills more than cats"
+      "The internet shock image of a man stretching his asshole to the size of a dinner plate",
+      "The picture that proved human anatomy is far more elastic than anyone wanted to know",
+      "The original internet trauma — a gaping anus that haunts the dreams of early web surfers"
     ]
   },
   {
     "word": "spatchcock",
     "definitions": [
-      "A way of flattening a chicken, or a word that just sounds incredibly dirty",
-      "A cooking technique that sounds like a violent sexual act but involves poultry",
-      "To butterfly a bird — the most accidentally vulgar culinary term ever"
+      "A cooking technique for flattening a chicken that sounds exactly like violent dick assault",
+      "The most accidentally pornographic word in the entire culinary dictionary",
+      "To butterfly a bird — which sounds wholesome until you say the word out loud in public"
     ]
   },
   {
     "word": "gobshite",
     "definitions": [
-      "An Irish insult for someone who talks nothing but crap",
-      "A loud-mouthed fool whose gob spews shite like an open sewer",
-      "A person whose mouth is a direct pipeline from their colon to the outside world"
+      "An Irish insult for someone whose mouth is a direct sewer line from their colon",
+      "A loud-mouthed fool who shits from their gob nonstop like a fecal fountain",
+      "A person whose every spoken word is indistinguishable from literal diarrhea"
     ]
   },
   {
     "word": "arsewipe",
     "definitions": [
-      "British toilet paper, or a British person with the usefulness of toilet paper",
-      "The Queen's English version of asswipe — equally degrading but with an accent",
-      "A person whose contribution to society equals that of used loo roll"
+      "British TP, or a person with the exact value of a used square of single-ply",
+      "Someone whose only contribution to society is absorbing shit — literally and figuratively",
+      "The Queen's English version of asswipe — degrading with class and an accent"
     ]
   },
   {
     "word": "knobhead",
     "definitions": [
-      "British for dickhead — a person whose skull is shaped like a penis tip",
-      "Someone whose head resembles a doorknob in both appearance and intelligence",
-      "An idiot, described with the eloquence of British vulgarity"
+      "British for dickhead — a person whose cranium is shaped like a cock tip",
+      "An idiot whose head is as round, smooth, and useless as a doorknob",
+      "Someone whose skull functions as a penis helmet — decorative, not functional"
     ]
   },
   {
     "word": "nonce",
     "definitions": [
-      "British slang for a sex offender — the worst thing you can call someone in the UK",
-      "A predator, a creep, the lowest form of human garbage",
-      "The one insult that can get you into a genuine fight in any British pub"
+      "British slang for a sex offender — the absolute worst thing you can be called in the UK",
+      "A predatory creep — the one insult that can get you genuinely murdered in a British pub",
+      "The lowest form of human garbage wrapped in a five-letter word"
     ]
   },
   {
     "word": "minger",
     "definitions": [
-      "A hideously ugly person — British slang for someone who makes you gag",
-      "Someone so unattractive that looking at them counts as a jumpscare",
-      "A person whose face could curdle milk and shatter mirrors simultaneously"
+      "A person so ugly that looking at them counts as a certified jumpscare",
+      "Someone whose face could curdle milk, shatter mirrors, and make babies cry on sight",
+      "British for 'so hideous they should wear a bag over their head as a public service'"
     ]
   },
   {
     "word": "munter",
     "definitions": [
-      "An extremely unattractive person — a minger's even uglier cousin",
-      "British slang for someone so ugly they should come with a warning label",
-      "A person whose face is a war crime against aesthetics"
+      "A minger's even uglier cousin — the final boss of British ugly",
+      "Someone so aggressively unattractive they should come with a trigger warning",
+      "A person whose face is a war crime against everyone with functioning eyeballs"
     ]
   },
   {
     "word": "pisspoor",
     "definitions": [
-      "So bad it's been marinaded in urine and left to rot",
-      "Quality so low it makes gas station sushi look gourmet",
-      "Pathetically terrible — as useful as a screen door on a submarine"
+      "Quality so abysmal it's been marinated in warm urine and left to ferment",
+      "So pathetically bad it makes dollar store knockoffs look premium",
+      "The absolute rock bottom of quality — where urine meets disappointment"
     ]
   },
   {
     "word": "shitpile",
     "definitions": [
-      "A literal or figurative heap of excrement that keeps growing",
-      "An accumulation of crap so large it qualifies as real estate",
-      "A mountain of feces that represents someone's life choices"
+      "A literal or figurative mountain of crap that keeps growing like a fecal tumor",
+      "An accumulation of turds so massive it qualifies as real estate in some states",
+      "A heap of shit so impressive it could be mistaken for modern art or a tech startup"
     ]
   },
   {
     "word": "assmonkey",
     "definitions": [
-      "A primate that lives in your butt, or a person who acts like one",
-      "Someone who swings from one terrible decision to another using their ass",
-      "A person whose behavior combines simian stupidity with posterior obsession"
+      "A primate that lives in your ass and flings turds at polite society",
+      "A person who swings from one bad decision to another using their butt as a vine",
+      "Someone who combines the intelligence of a monkey with the charm of an asshole"
     ]
   },
   {
     "word": "shitgrin",
     "definitions": [
-      "A smug, knowing smile that says 'I just did something terrible and I'm proud'",
-      "The face you make when you got away with something you definitely shouldn't have",
-      "A grin so self-satisfied it could only be powered by feces and audacity"
+      "That smug, shit-eating smile that says 'I just did something horrible and I loved it'",
+      "The self-satisfied face of a person who knows exactly how much they just fucked up your day",
+      "A grin powered by pure malice and feces that makes you want to punch its owner"
     ]
   },
   {
     "word": "buttchurn",
     "definitions": [
-      "The gurgling, churning sensation in your bowels before explosive diarrhea",
-      "When your intestines start mixing up a batch of liquid regret",
-      "The gastrointestinal warning system that says 'find a toilet NOW'"
+      "The ominous gurgling in your bowels that signals incoming liquid catastrophe",
+      "When your intestines start mixing a batch of explosive diarrhea like a fecal smoothie",
+      "The gastrointestinal alarm that screams 'find a toilet or destroy your pants in 30 seconds'"
     ]
   },
   {
     "word": "cocknose",
     "definitions": [
-      "A person with a phallic-shaped nose, or just a creative insult",
-      "Someone whose nose is so prominent it resembles a penis growing from their face",
-      "The insult you use when dickhead isn't anatomically specific enough"
+      "A person whose nose is so long and veiny it looks like an erection growing from their face",
+      "Someone whose schnoz could double as a dildo in an emergency",
+      "The insult for when 'dickhead' doesn't specify which body part looks like a penis"
     ]
   },
   {
     "word": "arsebadger",
     "definitions": [
-      "A fierce creature that lives in your butt — a British mythological nightmare",
-      "An aggressive rectal inhabitant that causes discomfort and regret",
-      "British for someone who is a persistent pain in the arse with badger-like tenacity"
+      "A ferocious British creature that burrows into your arse and never leaves",
+      "Someone who's a persistent, aggressive pain in the ass with the tenacity of a wild badger",
+      "A rectal pest with claws, teeth, and an attitude — the worst thing to find in your pants"
     ]
   },
   {
     "word": "jizzrag",
     "definitions": [
-      "The designated cleanup cloth kept shamefully close to the computer",
-      "A rag saturated with the evidence of loneliness",
-      "Fabric that has served its purpose so many times it could stand up on its own"
+      "The designated post-wank cleanup cloth that lives in permanent shame under the bed",
+      "A rag so crusty with dried cum it could shatter if you dropped it on the floor",
+      "Fabric that has absorbed more semen than a fertility clinic's entire collection"
     ]
   },
   {
     "word": "pisshead",
     "definitions": [
-      "A drunk whose blood alcohol level qualifies as a biohazard",
-      "British term for an alcoholic whose head is literally full of piss",
-      "Someone who drinks so much their brain has been replaced with urine"
+      "A drunk whose blood is at least 40% urine and 60% cheap lager",
+      "British for an alcoholic whose brain has been completely replaced with fermented piss",
+      "Someone who drinks so much their head is basically a bladder with a face on it"
     ]
   },
   {
     "word": "shithouse",
     "definitions": [
-      "An outhouse, a toilet, or a person built like a brick one",
-      "A filthy dwelling or a big tough person — built like a brick shithouse",
-      "The crudest word for a bathroom that somehow became a compliment for muscular people"
+      "An outhouse, a toilet, or a person built like a brick one — massive and full of shit",
+      "The crudest bathroom name that somehow became a compliment for muscular people",
+      "A structure dedicated to housing shit — whether it's a building or a bodybuilder"
     ]
   },
   {
     "word": "nutcracker",
     "definitions": [
-      "A device for cracking nuts, or a devastating blow to the testicles",
-      "Anything that destroys your gonads — a knee, a baseball, or your ex's lawyer",
-      "The testicular trauma device that makes every man cross his legs in sympathy"
+      "Anything that obliterates your testicles — a knee, a baseball, or your ex's divorce lawyer",
+      "The testicular demolition device that makes every man involuntarily cross his legs",
+      "A tool for destroying nuts — the Christmas decoration that makes men wince every December"
     ]
   },
   {
     "word": "buttcheek",
     "definitions": [
-      "One half of your posterior — the yin to the other cheek's yang",
-      "A single gluteal mass that jiggles independently of its partner",
-      "50% of a butt — sold individually, best experienced as a pair"
+      "One half of your ass — the yin to the other cheek's yang, jiggling independently",
+      "A single gluteal mass that claps on its own when you run down stairs",
+      "50% of a butt — sold individually, best experienced as a matching set"
     ]
   },
   {
     "word": "craphole",
     "definitions": [
-      "A terrible place that makes a porta-potty look like a five-star resort",
-      "Your anus, or any location that resembles its output",
-      "A dump so bad it would offend actual dumps"
+      "A place so disgusting it makes a truck stop toilet look like a presidential suite",
+      "Your asshole described by a five-year-old, or any apartment under $800/month",
+      "A dump so vile it would be condemned by the health department of actual dumps"
     ]
   },
   {
     "word": "spunkbubble",
     "definitions": [
-      "A bubble formed in semen — the world's worst bath bomb",
-      "The airy sphere of baby batter that nobody asked to see",
-      "A useless, fragile person who is the human equivalent of an ejaculate air pocket"
+      "An air bubble that forms in semen like the world's most repulsive bath bomb",
+      "A fragile, worthless person who is the human equivalent of a jizz soap bubble",
+      "The gross little orb that floats in a puddle of spunk — brief, pointless, and disgusting"
     ]
   },
   {
     "word": "poopchute",
     "definitions": [
-      "Your rectum — the waterslide nobody wants to ride",
-      "The exit ramp of your digestive system that handles all outbound shipments",
-      "A butt, described as a chute for poop, because subtlety is dead"
+      "Your rectum — the waterslide from hell that only delivers brown packages",
+      "The exit ramp of your digestive highway that handles all outbound fecal shipments",
+      "A butt described as a chute for poop because romance died a long time ago"
     ]
   },
   {
     "word": "fudgepacker",
     "definitions": [
-      "Someone who works in a fudge factory, or a very crude term for anal sex",
-      "A confectionery worker whose job title has been forever ruined by innuendo",
-      "The most unfortunate double entendre in the candy industry"
+      "Someone who packs fudge into a rear exit — the candy factory nobody wants to tour",
+      "A confectionery job title that the internet destroyed beyond any possible recovery",
+      "The most unfortunate double entendre in the history of the candy industry"
     ]
   },
   {
     "word": "turdcutter",
     "definitions": [
-      "Your sphincter — the muscle that portions out your poop like a biological slicer",
-      "The butt muscle that pinches off logs with factory-line precision",
-      "A tight butt, or the anatomical scissors that snip your poop into segments"
+      "Your sphincter — the biological scissors that snip your poop into logs with factory precision",
+      "The muscle ring that pinches off turds like a cigar cutter for shit",
+      "A tight butt or the anatomical blade that portions your crap into neat segments"
     ]
   },
   {
     "word": "dickbreath",
     "definitions": [
-      "Breath that smells like it recently encountered a penis",
-      "The oral calling card left behind after an enthusiastic blowjob",
-      "Halitosis that suggests someone has been gargling genitalia"
+      "Breath that smells like it just got done gargling a cock for an hour",
+      "Post-blowjob halitosis that announces exactly what you were doing five minutes ago",
+      "The oral calling card of someone who recently had a penis convention in their mouth"
     ]
   },
   {
     "word": "pissgoblin",
     "definitions": [
-      "A gremlin-like creature fueled by urine and bad vibes",
-      "Someone who appears in bathrooms like a malevolent fairy of filth",
-      "A small, angry person who acts like they were raised in a urinal"
+      "A urine-soaked gremlin that materializes in public bathrooms to spread filth and chaos",
+      "A small, angry person who acts like they were raised in a urinal and never left",
+      "A piss-powered imp who appears whenever someone is trying to use a toilet in peace"
     ]
   },
   {
     "word": "shitgoblin",
     "definitions": [
-      "A fecal gremlin that haunts your digestive system",
-      "A tiny, mischievous creature made entirely of crap and spite",
-      "The imp in your bowels that ensures you need to poop at the worst times"
+      "A fecal gremlin living in your colon who ensures you need to shit at the worst possible moment",
+      "The tiny turd-demon responsible for diarrhea striking during road trips with no rest stops",
+      "A rectal imp who schedules your bowel movements during meetings, dates, and plane rides"
     ]
   },
   {
     "word": "wankbadger",
     "definitions": [
-      "A masturbatory mammal — the British insult zoo's most aggressive exhibit",
-      "A person who jerks off with the ferocity of a cornered badger",
-      "British compound insult combining self-pleasure with a violent woodland creature"
+      "A masturbatory mammal — the most aggressive exhibit in the British insult zoo",
+      "Someone who jerks off with the ferocity and persistence of a cornered badger",
+      "A compound insult combining self-pleasure with a violent woodland creature for maximum British disgust"
     ]
   },
   {
     "word": "slutbag",
     "definitions": [
-      "A promiscuous person contained in bag form — portable and trashy",
-      "Someone whose sexual history could fill a garbage bag and still overflow",
-      "A vulgar insult combining promiscuity with waste disposal containers"
+      "A portable container of promiscuity — carry-on sized for maximum sluttery on the go",
+      "Someone whose sexual history requires its own garbage bag and zip code",
+      "A bag specifically designed to hold an entire slut and all their bad decisions"
     ]
   },
   {
     "word": "hoedown",
     "definitions": [
-      "A country dance, or what happens when a promiscuous person trips",
-      "When the town bicycle falls over — literally and figuratively",
-      "A gathering that sounds wholesome but has a filthy double meaning"
+      "A country dance, or the moment a promiscuous person trips and face-plants",
+      "What happens when the town bicycle runs out of gas and falls over",
+      "A wholesome-sounding hoenanigan that has a filthy double meaning"
     ]
   },
   {
     "word": "hoebag",
     "definitions": [
-      "A bag containing a garden tool, or a very promiscuous person",
-      "Someone whose reputation fits neatly into a bag of shame",
-      "A portable container of promiscuity — the carry-on luggage of sluttiness"
+      "A bag containing a garden tool, or a person whose body is a community resource",
+      "Someone whose reputation fits neatly into a trash bag labeled 'shame'",
+      "The carry-on luggage of promiscuity — compact, well-traveled, and falling apart"
     ]
   },
   {
     "word": "assface",
     "definitions": [
-      "A person whose face looks like a butt or whose butt looks like a face",
-      "Someone so ugly their face is indistinguishable from their posterior",
-      "An insult suggesting facial features arranged in a gluteal configuration"
+      "A person whose face and ass are interchangeable — and both look like shit",
+      "Someone so ugly they look the same from both ends",
+      "A human whose face has the aesthetic appeal of a hairy butt crack"
     ]
   },
   {
     "word": "shitdick",
     "definitions": [
-      "A penis that has been where no penis should have gone without preparation",
-      "The post-anal penis that needs an immediate shower and some reflection",
-      "A worthless person who combines the worst of feces and phallus"
+      "A cock that just came out of someone's ass and looks like a brown crayon",
+      "The post-anal penis that needs bleach, therapy, and a moment of silence",
+      "A worthless person who is both a piece of shit and a dick at the same time"
     ]
   },
   {
     "word": "assjuice",
     "definitions": [
-      "The mysterious liquid that seeps from between the cheeks on a hot day",
-      "Rectal secretions that prove the human body is a nightmare machine",
-      "The sweat and other fluids that collect in your crack like the world's worst cocktail"
+      "The unholy cocktail of sweat and funk that brews between your cheeks on a hot day",
+      "Rectal secretions that prove the human body is a horror machine",
+      "The warm, mysterious liquid that collects in your crack like the world's worst soup"
     ]
   },
   {
     "word": "crotchfruit",
     "definitions": [
-      "A child — the fruit that grows from the crotch tree",
-      "Offspring described as produce from the genital region",
-      "What comes out of your loins after nine months of ripening"
+      "A child — the fruit that ripened in someone's crotch for nine months then burst out screaming",
+      "Offspring described as produce harvested from the genital region",
+      "A small human grown from fuck juice who will now cost you $250,000 to raise"
     ]
   },
   {
     "word": "shitweasel",
     "definitions": [
-      "A sneaky little turd of a person who weasels through life",
-      "Stephen King's contribution to scatological creature design",
-      "A fecal-covered rodent, or a person with the morals of one"
+      "A sneaky turd of a person who slithers through life leaving a brown trail",
+      "Stephen King's most disgusting creature — a weasel made of actual feces",
+      "A fecal-coated rodent-person with the morals of a tapeworm"
     ]
   },
   {
     "word": "fucknugget",
     "definitions": [
-      "A small, dense, nugget-shaped piece of fuckery",
-      "An idiot compressed into nugget form — bite-sized stupidity",
-      "A person who is the chicken nugget of human waste — small, processed, and fake"
+      "A bite-sized chunk of compressed fuckery in nugget form — small, dense, and worthless",
+      "An idiot so compact they could fit in a Happy Meal box and still disappoint",
+      "A small, processed piece of human failure shaped like a chicken nugget of shame"
     ]
   },
   {
     "word": "douchemaster",
     "definitions": [
-      "The supreme lord of all douchebags — their king and commander",
-      "A person who has achieved black belt status in douchebaggery",
-      "The grand master of being a douche — they've dedicated their life to the craft"
+      "The grandmaster of douchebaggery who has earned a black belt in being insufferable",
+      "The supreme overlord of douches — their king, their commander, their spiritual leader",
+      "A person who has devoted their entire existence to perfecting the art of being a douche"
     ]
   },
   {
     "word": "shitmonger",
     "definitions": [
-      "A purveyor of feces and terrible opinions in equal measure",
-      "Someone who deals in crap like a medieval merchant of manure",
-      "A person who sells, spreads, and promotes shit wherever they go"
+      "A medieval shit merchant who peddles turds and terrible opinions in equal measure",
+      "Someone who deals in crap like a farmer's market vendor who only sells manure",
+      "A professional shit-spreader whose business card just says 'I sell crap'"
     ]
   },
   {
     "word": "cumchugger",
     "definitions": [
-      "Someone who downs semen like it's a sports drink at a marathon",
-      "A person who chugs baby batter with competitive drinking enthusiasm",
-      "One who guzzles man milk like they're sponsored by it"
+      "Someone who chugs jizz like they're doing a semen keg stand at a frat party",
+      "A person who downs load after load like they're training for the Cum Olympics",
+      "A baby-batter sommelier who doesn't sip — they guzzle with competitive intensity"
     ]
   },
   {
     "word": "buttsniff",
     "definitions": [
-      "The act of smelling a butt, usually done by dogs and weirdos",
-      "Canine greeting behavior that some humans have unfortunately adopted",
-      "Inhaling the scent of someone's posterior — by accident or horrifying choice"
+      "Inhaling the scent of someone's ass — a greeting reserved for dogs and absolute degenerates",
+      "The act of getting your nose deep enough in a crack to file a scent report",
+      "Smelling a butt either by accident, curiosity, or a fetish you should keep to yourself"
     ]
   },
   {
     "word": "cockbite",
     "definitions": [
-      "An insult from Red vs Blue that combines genitals with dental violence",
-      "A person who bites cocks — metaphorically or, god forbid, literally",
-      "The penile equivalent of an ankle-biter — small, annoying, and painful"
+      "The nightmare scenario where teeth meet dick in a way God never intended",
+      "A blowjob gone wrong — the dental disaster that makes every man clench",
+      "Biting a cock either as an insult, an accident, or the reason someone ends up in the ER"
     ]
   },
   {
     "word": "crapstick",
     "definitions": [
-      "A stick made of crap, or a person with the rigidity and value of one",
-      "The frozen poop on a stick that nobody wanted — a fecal popsicle",
-      "An insult suggesting someone is a turd with structural integrity"
+      "A frozen turd on a stick — the popsicle from the deepest circle of hell",
+      "A person with the rigidity and value of a dried shit stick",
+      "An insult implying someone is a turd that somehow developed structural integrity"
     ]
   },
   {
     "word": "douchecanoe",
     "definitions": [
-      "A vessel built entirely from douchebaggery that sails the river of assholery",
-      "A person so douchey they've become a watercraft of concentrated awfulness",
-      "The nautical evolution of douchebag — now with paddles and even less self-awareness"
+      "A watercraft built entirely from douchebaggery sailing the river of assholery",
+      "A douche so massive they upgraded from bag to full nautical vessel",
+      "The evolutionary step above douchebag — now with paddles and an even more punchable face"
     ]
   },
   {
     "word": "shitbasket",
     "definitions": [
-      "A basket of shit — what you get instead of a gift basket from your worst enemy",
-      "A container of fecal matter, or a person who serves as one",
-      "The present nobody wants — a woven receptacle full of crap and disappointment"
+      "A woven receptacle for turds — the gift basket from your worst enemy",
+      "A person who is essentially a basket woven from dried feces and bad decisions",
+      "The most unwelcome delivery — a handcrafted container of crap and disappointment"
     ]
   },
   {
     "word": "asswagon",
     "definitions": [
-      "A vehicle powered by pure ass energy and bad decisions",
-      "A wagon full of butts headed nowhere good",
-      "A person or thing so ridiculous it needs a wagon to haul all that ass"
+      "A vehicle powered entirely by ass energy and terrible life choices",
+      "A wagon so full of butts it needs reinforced axles",
+      "A rolling monument to posterior excess that hauls ass in the most literal sense"
     ]
   },
   {
     "word": "dickwagon",
     "definitions": [
-      "A carriage of dicks rolling through town spreading phallic chaos",
-      "Someone so full of dick energy they need a wagon to contain it",
-      "The vehicle you ride when you've committed to being a total penis"
+      "A carriage overflowing with dicks rolling through town spreading phallic devastation",
+      "Someone so full of dick energy they need a commercial vehicle to haul it all",
+      "The wagon you ride when you've fully committed to being a traveling penis exhibit"
     ]
   },
   {
     "word": "bumfuck",
     "definitions": [
-      "A remote, middle-of-nowhere location where nothing happens",
-      "Anal sex, or a place so isolated even GPS can't find it",
-      "The town beyond the middle of nowhere — population: zero and a few cows"
+      "Ass sex, or a place so remote that even God's GPS says 'recalculating forever'",
+      "The town beyond the middle of nowhere where cousin-marriage is just called marriage",
+      "Either anal intercourse or the geographic asshole of the planet — context is everything"
     ]
   },
   {
     "word": "dirtpipe",
     "definitions": [
-      "Your rectum described as plumbing — the sewage line of your body",
-      "The anal canal, rebranded as an industrial waste disposal system",
-      "The pipe that handles your body's dirtiest exports"
+      "Your rectum — the internal sewage line handling your body's filthiest exports",
+      "The anal pipeline that transports waste with the efficiency of a shit subway system",
+      "A person or body part that functions as a conduit for the worst things imaginable"
     ]
   },
   {
     "word": "shartnado",
     "definitions": [
-      "A tornado made of sharts — the most catastrophic weather event in underwear history",
-      "When your explosive diarrhea reaches cyclone-level force and destruction",
-      "The natural disaster that happens in your pants after gas station sushi"
+      "A spinning vortex of liquid shit that devastates underwear like a fecal hurricane",
+      "When your explosive diarrhea achieves cyclone-level force and a body count",
+      "The natural disaster that happens in your pants after gas station sushi and cheap tequila"
     ]
   },
   {
     "word": "pissclam",
     "definitions": [
-      "A vulgar term for a vagina that combines urine with shellfish",
-      "The most unappetizing combination of sea creature and bodily fluid",
-      "A crude anatomical description that ruins both seafood and romance simultaneously"
+      "A vulgar mashup of urine and shellfish that ruins both seafood and anatomy simultaneously",
+      "The most unappetizing genital description ever created by combining two innocent words",
+      "A term that makes you never want to eat clam chowder or think about genitals ever again"
     ]
   },
   {
     "word": "numbnuts",
     "definitions": [
-      "An idiot whose testicles have lost all sensation, along with their brain cells",
-      "Someone so stupid that even their nuts have given up trying",
-      "A fool whose genitals are as useless as their decision-making abilities"
+      "An idiot whose testicles have lost all feeling — along with every brain cell they ever had",
+      "Someone so profoundly stupid their balls went numb from secondhand embarrassment",
+      "A fool whose genitals are as useless as their opinions and decision-making abilities"
     ]
   },
   {
     "word": "fanny",
     "definitions": [
-      "A butt in America, a vagina in Britain — guaranteed to cause confusion abroad",
-      "The body part whose meaning changes dramatically depending on which side of the Atlantic you're on",
-      "A word that is family-friendly in the US and absolutely filthy in the UK"
+      "A butt in America, a pussy in Britain — the word that causes international genital confusion",
+      "The body part that guarantees embarrassment when American tourists use it in London",
+      "Family-friendly in the US, absolutely filthy in the UK — the most dangerous word in travel"
     ]
   },
   {
     "word": "beaver",
     "definitions": [
-      "A dam-building rodent, or retro slang for vagina",
-      "A furry aquatic mammal, or what your grandpa called lady parts",
-      "Nature's engineer, or 1970s slang for a hairy vulva"
+      "A dam-building rodent, or your grandpa's favorite word for a hairy 1970s bush",
+      "Nature's engineer, or retro slang for a vagina with a full fur coat",
+      "An animal or a vulva — both furry, both aquatic, both best left in the wild"
     ]
   },
   {
     "word": "shitpiss",
     "definitions": [
-      "When both ends are competing to see which can evacuate faster",
-      "A double-barreled bodily function emergency that ruins bathrooms",
-      "The compound word for when your body declares war on you from two fronts"
+      "When both ends compete to see which can empty faster in a bodily function speedrun",
+      "A simultaneous two-front evacuation that turns a bathroom into a biohazard zone",
+      "The compound word for when your body attacks itself from both exits at once"
     ]
   },
   {
     "word": "buttpirate",
     "definitions": [
-      "A person who plunders booties — the swashbuckler of rear ends",
-      "An anal enthusiast who approaches butts like a pirate approaches treasure",
-      "Someone who raids posteriors with the gusto of a seafaring plunderer"
+      "A swashbuckling ass plunderer who raids rear ends like a booty-obsessed Captain Hook",
+      "Someone who approaches butts with the enthusiasm of a pirate discovering buried treasure",
+      "An anal adventurer sailing the seven seas of ass — pillaging posteriors without mercy"
     ]
   },
   {
     "word": "cumbox",
     "definitions": [
-      "The legendary Reddit artifact — a shoebox used as a semen repository for years",
-      "A container dedicated to catching ejaculate that becomes a biohazard",
-      "The internet's most disgusting confession — a box of accumulated man juice"
+      "The legendary Reddit artifact — a shoebox used as a jizz repository until it turned brown",
+      "A container so saturated with semen it developed its own ecosystem and biohazard rating",
+      "The internet's most disgusting confession — a box so crunchy with dried nut it nearly caught fire"
     ]
   },
   {
     "word": "whoremonger",
     "definitions": [
-      "A person who deals in prostitution like it's a commodities market",
-      "An old-timey word for pimp that sounds like a Renaissance festival insult",
-      "Someone who mongers whores — a medieval career path that somehow still exists"
+      "A medieval pimp who deals in prostitution like it's a commodities market at the Renaissance fair",
+      "Someone who mongers whores with the same energy as a fishmonger selling halibut",
+      "A career path from the 1400s that somehow still shows up on LinkedIn profiles"
     ]
   },
   {
     "word": "shitsipper",
     "definitions": [
-      "A person who drinks shit — the worst sommelier at the worst restaurant",
-      "Someone who sips feces like fine wine — savoring every terrible moment",
-      "An insult implying someone consumes excrement as a leisure beverage"
+      "A person who sips shit like it's fine wine at a tasting event in hell",
+      "Someone who savors feces the way a sommelier savors a vintage Bordeaux",
+      "An insult implying someone enjoys excrement as a leisure beverage paired with cheese"
     ]
   },
   {
     "word": "dickwhip",
     "definitions": [
-      "To swing your penis around like a fleshy lasso",
-      "The act of using your member as a whipping device",
-      "A penile weapon that no one asked for and no one can defend against"
+      "Swinging your cock around like a fleshy lasso at a genital rodeo",
+      "Using your penis as a whip — the most absurd and least effective weapon ever",
+      "A phallic power move that says 'I have nothing else going on in my life'"
     ]
   },
   {
     "word": "turdpile",
     "definitions": [
-      "An accumulation of poop that has achieved architectural status",
-      "A stack of turds so impressive it belongs in a museum of failure",
-      "A heap of feces, or a description of your worst day ever"
+      "A heap of turds so architecturally impressive it deserves a museum exhibit",
+      "A stack of shit that represents the physical manifestation of someone's life decisions",
+      "A fecal cairn marking the spot where dignity came to die"
     ]
   },
   {
     "word": "assbucket",
     "definitions": [
-      "A bucket for asses, or a person whose personality fits in one",
-      "A container sized for posterior deposits — both literal and figurative",
-      "Someone whose worth can be measured in a single bucket of butt"
+      "A bucket-sized container for all things ass — both the body part and the personality",
+      "A person whose worth can be measured in a single, shit-filled pail",
+      "Someone whose entire existence could be scooped up and dumped like a bucket of butts"
     ]
   },
   {
     "word": "craptastic",
     "definitions": [
-      "So bad it's almost impressive — fantastically crappy",
-      "A sarcastic term for something spectacularly terrible",
-      "When something is so awful you have to applaud the commitment to failure"
+      "So spectacularly shitty it loops around from terrible to almost impressive",
+      "Fantastically crappy — the Tony Award of being absolute garbage",
+      "When something sucks so hard you have to applaud its commitment to sucking"
     ]
   },
   {
     "word": "hellhole",
     "definitions": [
-      "A place so terrible that actual hell filed a copyright complaint",
-      "The worst location on Earth — usually your workplace or a bus station bathroom",
-      "A miserable, wretched place that makes purgatory look like a vacation spot"
+      "A place so miserable that actual hell filed a copyright infringement lawsuit",
+      "The worst location on earth — usually a DMV, a bus station bathroom, or your ex's apartment",
+      "A wretched pit of despair that makes prison look like a vacation destination"
     ]
   },
   {
     "word": "shitdrizzle",
     "definitions": [
-      "A light precipitation of fecal matter — the weather forecast from hell",
-      "When your diarrhea isn't fully committed — just a gentle brown rain",
-      "The mist of poop that follows a wet fart like a scatological weather system"
+      "A gentle precipitation of liquid feces — the weather forecast from Satan's weekend",
+      "When your diarrhea can't commit — just a light brown mist from your ass",
+      "The scatological weather system that turns every fart into a potential pants-ruiner"
     ]
   },
   {
     "word": "dickcheese",
     "definitions": [
-      "Smegma rebranded as a dairy product — the worst artisanal cheese imaginable",
-      "The fromage that forms under unwashed foreskin like a forbidden Brie",
-      "Penile buildup that proves hygiene should be mandatory, not optional"
+      "Smegma rebranded as artisanal fromage — aged under foreskin like a forbidden Brie",
+      "The chunky buildup on an unwashed cock that smells like Parmesan left in a gym bag",
+      "Penile dairy that proves circumcision is at least partly about hygiene"
     ]
   },
   {
     "word": "assberry",
     "definitions": [
-      "A hemorrhoid described as fruit — the worst berry in nature's garden",
-      "The painful bump on your butthole that makes sitting a strategic nightmare",
-      "A rectal growth that nobody wants to pick but everyone wants to scratch"
+      "A hemorrhoid described as fruit — the most painful berry in nature's garden",
+      "The angry, swollen grape growing on your butthole that makes sitting a war crime",
+      "A rectal growth that throbs like it has its own heartbeat and ruins every chair"
     ]
   },
   {
     "word": "shitkicker",
     "definitions": [
-      "Heavy boots designed for stomping through manure and bad attitudes",
-      "A tough, rough, country person who literally kicks shit for a living",
-      "Someone so rowdy they kick excrement around like it's a soccer ball"
+      "Heavy boots for stomping through manure, bar fights, and bad attitudes",
+      "A rough, tough redneck who literally kicks cow shit for entertainment",
+      "Someone so rowdy they boot turds across fields like it's the World Cup of feces"
     ]
   },
   {
     "word": "crackhead",
     "definitions": [
-      "Someone addicted to crack cocaine whose behavior is wildly unpredictable",
-      "A person whose life revolves around crack — either the drug or inappropriate plumber exposure",
-      "An unhinged individual who operates on chaos energy and bad decisions"
+      "Someone whose brain runs on crack, chaos, and the ability to do anything at 3 AM",
+      "A person operating on pure crackhead energy — superhuman strength, zero logic",
+      "An unhinged individual who could lift a car or fight a raccoon and win either way"
     ]
   },
   {
     "word": "ballbusting",
     "definitions": [
-      "The act of destroying testicles through physical or verbal assault",
-      "Giving someone such a hard time that their nuts implode from the pressure",
-      "Breaking someone's balls — the sport of relentless harassment"
+      "The systematic destruction of testicles through nagging, kicking, or verbal castration",
+      "Giving someone such a hard time their nuts literally try to crawl back inside their body",
+      "The sport of obliterating someone's balls through relentless physical or emotional assault"
     ]
   },
   {
     "word": "asscandle",
     "definitions": [
-      "A fart so potent that if you lit it, it would illuminate the room",
-      "The mythical act of lighting a fart and creating an anal flame",
-      "A butthole-powered light source fueled by methane and poor judgment"
+      "Lighting a fart on fire to create a blue flame shooting from your asshole",
+      "A methane-powered butt torch fueled by beans, beer, and terrible judgment",
+      "The party trick where your sphincter becomes a flamethrower and everyone pretends it's impressive"
     ]
   },
   {
     "word": "cocksocket",
     "definitions": [
-      "The receptacle where a cock plugs in — any orifice that accepts a penis",
-      "A crude term for a sexual partner reduced to a power outlet for genitals",
-      "A plug-and-play interface for penile insertion — humanity's most basic technology"
+      "Any orifice that accepts a dick — the plug-and-play port of human sexuality",
+      "A sexual partner reduced to a power outlet for penile insertion",
+      "A hole whose primary function is receiving cock — universal compatibility, no adapter needed"
     ]
   },
   {
     "word": "cumdumpster",
     "definitions": [
-      "A receptacle for ejaculate that has given up on standards entirely",
-      "Someone so promiscuous they function as a waste disposal for semen",
-      "The most vulgar description of a person with an extremely active sex life"
+      "A receptacle for jizz that has given up on standards, dignity, and laundry",
+      "Someone so promiscuous they function as a municipal waste disposal system for semen",
+      "The human equivalent of a dumpster but specifically for catching and storing cum"
     ]
   },
   {
     "word": "snotrag",
     "definitions": [
-      "A tissue, a handkerchief, or a person with the value of a booger-soaked cloth",
-      "The crusty cloth you blow your nose into when you're too cheap for Kleenex",
-      "A human being so worthless they serve the same purpose as a mucus-covered rag"
+      "A crusty, booger-soaked rag, or a person with equal value and appeal",
+      "The green, mucus-saturated cloth that your grandpa pulls from his pocket like it's normal",
+      "A human being so worthless they serve the same function as a snot-filled handkerchief"
     ]
   },
   {
     "word": "jagoff",
     "definitions": [
-      "A Pittsburgh-specific insult for someone who jacks off — the city's finest export",
-      "A jerk-off so annoying they've earned their own regional dialect entry",
-      "Someone from Pittsburgh hates — which is impressive because Pittsburgh loves everyone else"
+      "A Pittsburgh-specific insult for a jerk-off — the Steel City's proudest linguistic export",
+      "A wanker so annoying that an entire city invented a regional slur just for them",
+      "Someone who jacks off with such dedication that Pittsburgh named the behavior after them"
     ]
   },
   {
     "word": "fuckboi",
     "definitions": [
-      "The evolved form of fuckboy — with an 'i' for extra douchebaggery",
-      "A man whose entire personality is gym selfies and ghosting",
-      "The final form of a player who peaked with his Tinder profile picture"
+      "A fuckboy with an 'i' because extra douchebaggery requires extra spelling creativity",
+      "A man whose entire identity is gym selfies, ghosting, and 'wyd' texts at 2 AM",
+      "The evolved final form of a fuckboy — more vapid, more disappointing, worse at texting"
     ]
   },
   {
     "word": "gashtag",
     "definitions": [
-      "A derogatory label applied to someone's nether regions",
-      "When someone's private area gets a hashtag it never asked for",
-      "A crude combination of slang anatomy and social media terminology"
+      "When someone's vagina gets a hashtag it absolutely never asked for or deserved",
+      "A crude mashup of slang anatomy and social media that should never have been combined",
+      "A derogatory genital label trending on a platform no genitals signed up for"
     ]
   },
   {
     "word": "assflap",
     "definitions": [
-      "The fleshy curtain of your butt cheeks that claps when you run",
-      "A posterior appendage that flaps in the breeze like the world's worst flag",
-      "The cheek skin that creates a round of applause every time you sit down hard"
+      "The fleshy butt curtain that claps enthusiastically every time you run or sit down hard",
+      "A cheek flap that flaps in the breeze like the world's most disgusting wind chime",
+      "The loose posterior skin that gives your ass a standing ovation with every step"
     ]
   },
   {
     "word": "shitticket",
     "definitions": [
-      "A single sheet of toilet paper — your ticket to a clean finish",
-      "One square of TP that stands between you and a very bad day",
-      "Toilet paper described as admission to the concert of not having a dirty butt"
+      "A single sheet of toilet paper — your only ticket between clean and catastrophe",
+      "The flimsy square of tissue standing between your fingers and a brown surprise",
+      "TP described as event admission — welcome to the show of not having shit on your hand"
     ]
   },
   {
     "word": "cockjuggling",
     "definitions": [
-      "The act of handling multiple penises simultaneously like a circus performer",
-      "Managing several sexual partners with the skill of a genital entertainer",
-      "Juggling cocks — the career that never makes it to the talent show"
+      "Handling multiple dicks simultaneously with the skill of a genital circus performer",
+      "Juggling cocks — the talent show act that never makes it past the audition round",
+      "Managing several penises at once like a pornographic Cirque du Soleil performer"
     ]
   }
 ]

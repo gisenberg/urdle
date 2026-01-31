@@ -3,6 +3,8 @@ import Game from './Game'
 import {
   getTodayWord,
   getRandomWord,
+  encodeWordId,
+  getWordIndex,
   decodeWordId,
   getWordByIndex,
   type WordEntry,
@@ -19,7 +21,10 @@ function parseHash(): RouteState {
   const hash = window.location.hash.replace(/^#\/?/, '')
 
   if (hash === 'random') {
-    return { mode: 'random', wordEntry: getRandomWord() }
+    const entry = getRandomWord()
+    const id = encodeWordId(getWordIndex(entry))
+    window.location.replace(`#/w/${id}`)
+    return { mode: 'random', wordEntry: entry }
   }
 
   if (hash.startsWith('w/')) {

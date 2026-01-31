@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import {
   getTodayKey,
+  getRandomWord,
   evaluateGuess,
   encodeWordId,
   getWordIndex,
@@ -62,8 +63,10 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   }, [guesses, gameStatus, dateKey, isDaily])
 
   const startRandomGame = useCallback(() => {
-    window.location.hash = '#/random'
-  }, [])
+    const next = getRandomWord(wordEntry.word)
+    const id = encodeWordId(getWordIndex(next))
+    window.location.hash = `#/w/${id}`
+  }, [wordEntry.word])
 
   const submitGuess = useCallback(() => {
     if (gameStatus !== 'playing') return

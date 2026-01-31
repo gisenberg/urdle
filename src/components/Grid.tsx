@@ -8,6 +8,8 @@ interface GridProps {
   wordLength: number
   shakeRow: boolean
   revealedPositions: Set<number>
+  hintedPositions: Set<number>
+  allRevealedPositions: Set<number>
   target: string
 }
 
@@ -17,6 +19,8 @@ export default function Grid({
   wordLength,
   shakeRow,
   revealedPositions,
+  hintedPositions,
+  allRevealedPositions,
   target,
 }: GridProps) {
   const rows: EvaluatedLetter[][] = []
@@ -31,7 +35,12 @@ export default function Grid({
     const currentRow: EvaluatedLetter[] = []
     let typedIdx = 0
     for (let i = 0; i < wordLength; i++) {
-      if (revealedPositions.has(i)) {
+      if (hintedPositions.has(i)) {
+        currentRow.push({
+          letter: target[i],
+          state: 'hinted',
+        })
+      } else if (revealedPositions.has(i)) {
         currentRow.push({
           letter: target[i],
           state: 'revealed',
@@ -51,7 +60,12 @@ export default function Grid({
   while (rows.length < MAX_GUESSES) {
     const emptyRow: EvaluatedLetter[] = []
     for (let i = 0; i < wordLength; i++) {
-      if (revealedPositions.has(i)) {
+      if (hintedPositions.has(i)) {
+        emptyRow.push({
+          letter: target[i],
+          state: 'hinted',
+        })
+      } else if (revealedPositions.has(i)) {
         emptyRow.push({
           letter: target[i],
           state: 'revealed',
@@ -72,7 +86,7 @@ export default function Grid({
   if (currentRowIndex < MAX_GUESSES) {
     const currentRow = rows[currentRowIndex]
     for (let i = 0; i < currentRow.length; i++) {
-      if (currentRow[i].state === 'empty' && currentRow[i].letter === '') {
+      if (currentRow[i].state === 'empty' && !allRevealedPositions.has(i) && currentRow[i].letter === '') {
         cursorPos = i
         break
       }

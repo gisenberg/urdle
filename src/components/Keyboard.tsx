@@ -21,6 +21,7 @@ const stateColors: Record<LetterState | 'unused', string> = {
   absent: 'bg-neutral-700',
   empty: 'bg-neutral-500',
   revealed: 'bg-neutral-700',
+  hinted: 'bg-neutral-700',
   unused: 'bg-neutral-500',
 }
 

@@ -15,6 +15,7 @@ interface HintPanelProps {
   elapsedSeconds: number
   target: string
   revealedPositions: Set<number>
+  onRevealPosition: (pos: number) => void
 }
 
 const HINT_THRESHOLDS = [0, 30, 60] // seconds until hint 1, 2, 3 unlock
@@ -26,6 +27,7 @@ export default function HintPanel({
   elapsedSeconds,
   target,
   revealedPositions,
+  onRevealPosition,
 }: HintPanelProps) {
   const defUnlockedCount = getUnlockedHintCount(guessCount, gameOver, elapsedSeconds)
   const definitions = word.definitions
@@ -48,6 +50,7 @@ export default function HintPanel({
   })
 
   const prevUnlockedRef = useRef(totalUnlocked)
+  const prevLetterUnlockedRef = useRef(letterUnlockedCount)
 
   useEffect(() => {
     if (totalUnlocked > prevUnlockedRef.current) {
@@ -61,6 +64,19 @@ export default function HintPanel({
     }
     prevUnlockedRef.current = totalUnlocked
   }, [totalUnlocked])
+
+  // Reveal hinted positions on the board when letter hints unlock
+  useEffect(() => {
+    if (letterUnlockedCount > prevLetterUnlockedRef.current) {
+      for (let i = prevLetterUnlockedRef.current; i < letterUnlockedCount; i++) {
+        const hint = letterHints[i]
+        if (hint) {
+          onRevealPosition(hint.position)
+        }
+      }
+    }
+    prevLetterUnlockedRef.current = letterUnlockedCount
+  }, [letterUnlockedCount, letterHints, onRevealPosition])
 
   return (
     <div className="w-full max-w-sm mx-auto space-y-2 px-4">

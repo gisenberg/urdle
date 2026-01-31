@@ -24,6 +24,9 @@ export default function Game({ wordEntry, mode }: GameProps) {
     evaluatedGuesses,
     shakeRow,
     revealedPositions,
+    hintedPositions,
+    allRevealedPositions,
+    revealHintPosition,
     addLetter,
     deleteLetter,
     submitGuess,
@@ -96,6 +99,8 @@ export default function Game({ wordEntry, mode }: GameProps) {
         wordLength={wordLength}
         shakeRow={shakeRow}
         revealedPositions={revealedPositions}
+        hintedPositions={hintedPositions}
+        allRevealedPositions={allRevealedPositions}
         target={target}
       />
 
@@ -106,12 +111,13 @@ export default function Game({ wordEntry, mode }: GameProps) {
         elapsedSeconds={elapsedSeconds}
         target={target}
         revealedPositions={revealedPositions}
+        onRevealPosition={revealHintPosition}
       />
 
       <Keyboard
         guesses={guesses}
         target={target}
-        revealedPositions={revealedPositions}
+        revealedPositions={allRevealedPositions}
         onKey={addLetter}
         onEnter={submitGuess}
         onDelete={deleteLetter}

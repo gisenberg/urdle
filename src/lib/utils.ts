@@ -7,7 +7,7 @@ export interface WordEntry {
   quality?: number
 }
 
-export type LetterState = 'correct' | 'present' | 'absent' | 'empty' | 'revealed'
+export type LetterState = 'correct' | 'present' | 'absent' | 'empty' | 'revealed' | 'hinted'
 
 export interface EvaluatedLetter {
   letter: string
@@ -151,6 +151,7 @@ function statePriority(state: LetterState): number {
     case 'present': return 2
     case 'absent': return 1
     case 'revealed': return 0
+    case 'hinted': return 0
     case 'empty': return 0
   }
 }

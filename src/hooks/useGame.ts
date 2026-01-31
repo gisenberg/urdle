@@ -6,6 +6,9 @@ import {
   encodeWordId,
   getWordIndex,
   getRevealedPositions,
+  getUnlockedHintCount,
+  getLetterHints,
+  getUnlockedLetterHintCount,
   MAX_GUESSES,
   getDayIndex,
   type WordEntry,
@@ -60,7 +63,15 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   const dateKey = getTodayKey()
 
   const revealedPositions = useMemo(() => getRevealedPositions(target), [target])
-  const inputLength = wordLength - revealedPositions.size
+  const [hintedPositions, setHintedPositions] = useState<Set<number>>(new Set())
+
+  const allRevealedPositions = useMemo(() => {
+    const merged = new Set(revealedPositions)
+    for (const p of hintedPositions) merged.add(p)
+    return merged
+  }, [revealedPositions, hintedPositions])
+
+  const inputLength = wordLength - allRevealedPositions.size
 
   const [guesses, setGuesses] = useState<string[]>([])
   const [currentGuess, setCurrentGuess] = useState('')
@@ -68,6 +79,7 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   const [shakeRow, setShakeRow] = useState(false)
   const [elapsedSeconds, setElapsedSeconds] = useState(0)
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  const hintsUsedRef = useRef<{ used: number; total: number } | null>(null)
 
   // Timer that ticks every second while playing
   useEffect(() => {
@@ -86,6 +98,30 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
       }
     }
   }, [gameStatus])
+
+  // When a hint reveals a new position, clear current guess to avoid cursor misalignment
+  const revealHintPosition = useCallback((pos: number) => {
+    setHintedPositions((prev) => {
+      if (prev.has(pos)) return prev
+      const next = new Set(prev)
+      next.add(pos)
+      return next
+    })
+    setCurrentGuess('')
+  }, [])
+
+  // Snapshot hints used when game ends
+  useEffect(() => {
+    if (gameStatus !== 'playing' && !hintsUsedRef.current) {
+      const letterHints = getLetterHints(target, revealedPositions)
+      const defCount = getUnlockedHintCount(guesses.length, true, elapsedSeconds)
+      const letterCount = getUnlockedLetterHintCount(true, elapsedSeconds, letterHints.length)
+      hintsUsedRef.current = {
+        used: defCount + letterCount,
+        total: 3 + letterHints.length,
+      }
+    }
+  }, [gameStatus, guesses.length, elapsedSeconds, target, revealedPositions])
 
   // Load saved state on mount (daily only)
   useEffect(() => {
@@ -119,7 +155,7 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
       return
     }
 
-    const fullGuess = buildFullGuess(currentGuess.toLowerCase(), target, revealedPositions)
+    const fullGuess = buildFullGuess(currentGuess.toLowerCase(), target, allRevealedPositions)
     const newGuesses = [...guesses, fullGuess]
     setGuesses(newGuesses)
     setCurrentGuess('')
@@ -129,7 +165,7 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
     } else if (newGuesses.length >= MAX_GUESSES) {
       setGameStatus('lost')
     }
-  }, [currentGuess, guesses, target, inputLength, gameStatus, revealedPositions])
+  }, [currentGuess, guesses, target, inputLength, gameStatus, allRevealedPositions])
 
   const addLetter = useCallback(
     (letter: string) => {
@@ -142,7 +178,7 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
       let visualPos = wordLength
       let typed = 0
       for (let i = 0; i < wordLength; i++) {
-        if (revealedPositions.has(i)) continue
+        if (allRevealedPositions.has(i)) continue
         if (typed === currentGuess.length) {
           visualPos = i
           break
@@ -152,13 +188,13 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
 
       // If the user types a letter matching a revealed position just before
       // the cursor, consume it silently so typing the full word feels natural
-      for (let i = visualPos - 1; i >= 0 && revealedPositions.has(i); i--) {
+      for (let i = visualPos - 1; i >= 0 && allRevealedPositions.has(i); i--) {
         if (target[i] === l) return
       }
 
       setCurrentGuess((prev) => prev + l)
     },
-    [currentGuess, inputLength, gameStatus, revealedPositions, target, wordLength]
+    [currentGuess, inputLength, gameStatus, allRevealedPositions, target, wordLength]
   )
 
   const deleteLetter = useCallback(() => {
@@ -167,13 +203,13 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   }, [gameStatus])
 
   const evaluatedGuesses: EvaluatedLetter[][] = guesses.map((g) =>
-    evaluateGuess(g, target, revealedPositions)
+    evaluateGuess(g, target, allRevealedPositions)
   )
 
   // Build the full display guess (with revealed letters inserted) for the current row
   const displayGuess = useMemo(() => {
-    return buildFullGuess(currentGuess, target, revealedPositions)
-  }, [currentGuess, target, revealedPositions])
+    return buildFullGuess(currentGuess, target, allRevealedPositions)
+  }, [currentGuess, target, allRevealedPositions])
 
   const generateShareText = useCallback(() => {
     const wordIdx = getWordIndex(wordEntry)
@@ -198,7 +234,9 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
           .join('')
       )
       .join('\n')
-    return `${label} ${score}\n\n${grid}\n\n${shareUrl}`
+    const hints = hintsUsedRef.current
+    const hintText = hints ? ` (${hints.used}/${hints.total} hints)` : ''
+    return `${label} ${score}${hintText}\n\n${grid}\n\n${shareUrl}`
   }, [evaluatedGuesses, guesses.length, gameStatus, wordEntry, isDaily])
 
   return {
@@ -213,6 +251,9 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
     evaluatedGuesses,
     shakeRow,
     revealedPositions,
+    hintedPositions,
+    allRevealedPositions,
+    revealHintPosition,
     addLetter,
     deleteLetter,
     submitGuess,

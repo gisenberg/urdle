@@ -14,6 +14,7 @@ const stateColors: Record<LetterState, string> = {
   absent: 'bg-neutral-700 border-neutral-700',
   empty: 'bg-transparent border-neutral-600',
   revealed: 'bg-neutral-600 border-neutral-500',
+  hinted: 'bg-neutral-600 border-neutral-500',
 }
 
 const sizeClasses: Record<string, string> = {
@@ -35,7 +36,8 @@ export default function Tile({ letter, state, delay = 0, size = 'lg', isCursor =
   }
 
   const hasLetter = letter !== ''
-  const isRevealed = state !== 'empty' && state !== 'revealed'
+  const isRevealed = state !== 'empty' && state !== 'revealed' && state !== 'hinted'
+  const isHinted = state === 'hinted'
 
   return (
     <div
@@ -44,11 +46,12 @@ export default function Tile({ letter, state, delay = 0, size = 'lg', isCursor =
         font-bold uppercase select-none
         ${sizeClasses[size]}
         ${stateColors[state]}
-        ${hasLetter && !isRevealed ? 'border-neutral-400 tile-pop' : ''}
+        ${hasLetter && !isRevealed && !isHinted ? 'border-neutral-400 tile-pop' : ''}
         ${isRevealed ? 'tile-flip text-white' : 'text-white'}
+        ${isHinted ? 'tile-flip text-white' : ''}
         ${isCursor ? 'border-neutral-300 tile-cursor' : ''}
       `}
-      style={isRevealed ? { animationDelay: `${delay * 100}ms` } : undefined}
+      style={isRevealed || isHinted ? { animationDelay: `${delay * 100}ms` } : undefined}
     >
       {letter}
     </div>

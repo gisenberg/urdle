@@ -162,6 +162,75 @@ export function getUnlockedHintCount(guessCount: number, gameOver: boolean, elap
   return 1
 }
 
+export interface LetterHint {
+  position: number   // 0-based index in the target string
+  letter: string
+  inputIndex: number // 1-based typing position (non-revealed, non-space slots)
+}
+
+export function getLetterHints(target: string, revealedPositions: Set<number>): LetterHint[] {
+  // Find non-revealed, non-space positions
+  const nonRevealed: number[] = []
+  for (let i = 0; i < target.length; i++) {
+    if (target[i] !== ' ' && !revealedPositions.has(i)) {
+      nonRevealed.push(i)
+    }
+  }
+
+  const count = Math.floor(nonRevealed.length / 4)
+  if (count === 0) return []
+
+  // Build a map from position to 1-based input index (typing position)
+  const inputIndexMap = new Map<number, number>()
+  let idx = 0
+  for (let i = 0; i < target.length; i++) {
+    if (target[i] !== ' ' && !revealedPositions.has(i)) {
+      idx++
+      inputIndexMap.set(i, idx)
+    }
+  }
+
+  // Deterministic shuffle seeded by word content
+  let seed = 0
+  for (let i = 0; i < target.length; i++) {
+    seed = (seed * 31 + target.charCodeAt(i)) | 0
+  }
+
+  const shuffled = [...nonRevealed]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    seed = (seed * 1103515245 + 12345) | 0
+    const j = ((seed >>> 16) & 0x7fff) % (i + 1);
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+
+  return shuffled.slice(0, count).map((pos) => ({
+    position: pos,
+    letter: target[pos].toUpperCase(),
+    inputIndex: inputIndexMap.get(pos)!,
+  }))
+}
+
+export function getLetterHintThreshold(letterHintIndex: number): number {
+  return 60 + (letterHintIndex + 1) * 20
+}
+
+export function getUnlockedLetterHintCount(
+  gameOver: boolean,
+  elapsedSeconds: number,
+  totalLetterHints: number
+): number {
+  if (gameOver) return totalLetterHints
+  let count = 0
+  for (let i = 0; i < totalLetterHints; i++) {
+    if (elapsedSeconds >= getLetterHintThreshold(i)) {
+      count++
+    } else {
+      break
+    }
+  }
+  return count
+}
+
 export function censorWord(text: string, word: string): string {
   const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   const re = new RegExp(escaped, 'gi')

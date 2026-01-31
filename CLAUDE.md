@@ -22,10 +22,10 @@ src/
     Row.tsx          # Single row of tiles
     Tile.tsx         # Individual letter tile (handles space gaps, revealed style)
     Keyboard.tsx     # On-screen keyboard with color states
-    HintPanel.tsx    # Progressive hint definitions (unlocks at 0/2/4 guesses)
+    HintPanel.tsx    # Progressive hint definitions with flip card animation
     GameOver.tsx     # End-of-game modal with all 3 definitions
   hooks/
-    useGame.ts       # Core game state — guess logic, revealed positions, share text
+    useGame.ts       # Core game state — guess logic, revealed positions, elapsed timer, share text
   lib/
     utils.ts         # Word selection, evaluation, keyboard states, routing helpers
   data/
@@ -79,9 +79,14 @@ Current stats: 334 entries (61 Q3, 236 Q2, 37 Q1), 75 multi-word phrases.
 
 ### Hints
 - 1st hint shown immediately
-- 2nd hint unlocks at 2 guesses
-- 3rd hint unlocks at 4 guesses
+- 2nd hint unlocks at 2 guesses OR 30 seconds elapsed (whichever first)
+- 3rd hint unlocks at 4 guesses OR 60 seconds elapsed (whichever first)
 - Game over modal shows all 3 definitions uncensored
+- Locked hints show a thin amber progress bar filling toward their time threshold
+- The 3rd hint's progress bar only appears after the 2nd hint is revealed, and starts from 0%
+- Unlocking triggers a CSS 3D flip card animation (rotateX with backface-visibility)
+- Timer (`elapsedSeconds` in `useGame.ts`) ticks every second while `gameStatus === 'playing'` and pauses on game end
+- Flip card CSS lives in `src/index.css` (`.hint-card`, `.hint-card-inner`, `.flipped`)
 
 ### Modes
 - **Daily** (`#/`): Deterministic word-of-the-day, saved to localStorage

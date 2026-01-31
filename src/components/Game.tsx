@@ -104,6 +104,8 @@ export default function Game({ wordEntry, mode }: GameProps) {
         guessCount={guesses.length}
         gameOver={gameOver}
         elapsedSeconds={elapsedSeconds}
+        target={target}
+        revealedPositions={revealedPositions}
       />
 
       <Keyboard

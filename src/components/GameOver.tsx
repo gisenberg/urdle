@@ -1,10 +1,12 @@
 import type { GameStatus } from '../hooks/useGame'
+import type { WordEntry } from '../lib/utils'
 
 interface GameOverProps {
   status: GameStatus
   target: string
   guessCount: number
   maxGuesses: number
+  wordEntry: WordEntry
   onShare: () => void
   onRandomWord: () => void
 }
@@ -14,6 +16,7 @@ export default function GameOver({
   target,
   guessCount,
   maxGuesses,
+  wordEntry,
   onShare,
   onRandomWord,
 }: GameOverProps) {
@@ -36,6 +39,14 @@ export default function GameOver({
             Solved in {guessCount}/{maxGuesses} guesses
           </p>
         )}
+
+        <div className="text-left space-y-1.5">
+          {wordEntry.definitions.map((def, i) => (
+            <p key={i} className="text-sm text-neutral-300">
+              {i + 1}. {def}
+            </p>
+          ))}
+        </div>
 
         <div className="flex gap-3 justify-center">
           <button

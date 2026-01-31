@@ -7,6 +7,8 @@ interface GridProps {
   currentGuess: string
   wordLength: number
   shakeRow: boolean
+  revealedPositions: Set<number>
+  target: string
 }
 
 export default function Grid({
@@ -14,6 +16,8 @@ export default function Grid({
   currentGuess,
   wordLength,
   shakeRow,
+  revealedPositions,
+  target,
 }: GridProps) {
   const rows: EvaluatedLetter[][] = []
 
@@ -25,23 +29,41 @@ export default function Grid({
   // Current guess row
   if (rows.length < MAX_GUESSES) {
     const currentRow: EvaluatedLetter[] = []
+    let typedIdx = 0
     for (let i = 0; i < wordLength; i++) {
-      currentRow.push({
-        letter: currentGuess[i] || '',
-        state: 'empty',
-      })
+      if (revealedPositions.has(i)) {
+        currentRow.push({
+          letter: target[i],
+          state: 'revealed',
+        })
+      } else {
+        currentRow.push({
+          letter: currentGuess[typedIdx] || '',
+          state: 'empty',
+        })
+        typedIdx++
+      }
     }
     rows.push(currentRow)
   }
 
   // Empty remaining rows
   while (rows.length < MAX_GUESSES) {
-    rows.push(
-      Array.from({ length: wordLength }, () => ({
-        letter: '',
-        state: 'empty' as const,
-      }))
-    )
+    const emptyRow: EvaluatedLetter[] = []
+    for (let i = 0; i < wordLength; i++) {
+      if (revealedPositions.has(i)) {
+        emptyRow.push({
+          letter: target[i],
+          state: 'revealed',
+        })
+      } else {
+        emptyRow.push({
+          letter: '',
+          state: 'empty',
+        })
+      }
+    }
+    rows.push(emptyRow)
   }
 
   const tileSize: 'sm' | 'md' | 'lg' =

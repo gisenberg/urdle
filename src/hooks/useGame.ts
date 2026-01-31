@@ -1,10 +1,11 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import {
   getTodayKey,
   getRandomWord,
   evaluateGuess,
   encodeWordId,
   getWordIndex,
+  getRevealedPositions,
   MAX_GUESSES,
   getDayIndex,
   type WordEntry,
@@ -33,11 +34,29 @@ function saveState(key: string, state: SavedState) {
   localStorage.setItem(`urdle-${key}`, JSON.stringify(state))
 }
 
+/** Merge typed letters into a full-length string, inserting revealed chars at their positions. */
+function buildFullGuess(typed: string, target: string, revealedPositions: Set<number>): string {
+  const full: string[] = []
+  let ti = 0
+  for (let i = 0; i < target.length; i++) {
+    if (revealedPositions.has(i)) {
+      full.push(target[i])
+    } else {
+      full.push(typed[ti] ?? '')
+      ti++
+    }
+  }
+  return full.join('')
+}
+
 export function useGame(wordEntry: WordEntry, mode: GameMode) {
   const isDaily = mode === 'daily'
   const target = wordEntry.word.toLowerCase()
   const wordLength = target.length
   const dateKey = getTodayKey()
+
+  const revealedPositions = useMemo(() => getRevealedPositions(target), [target])
+  const inputLength = wordLength - revealedPositions.size
 
   const [guesses, setGuesses] = useState<string[]>([])
   const [currentGuess, setCurrentGuess] = useState('')
@@ -70,32 +89,52 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
 
   const submitGuess = useCallback(() => {
     if (gameStatus !== 'playing') return
-    if (currentGuess.length !== wordLength) {
+    if (currentGuess.length !== inputLength) {
       setShakeRow(true)
       setTimeout(() => setShakeRow(false), 300)
       return
     }
 
-    const guess = currentGuess.toLowerCase()
-    const newGuesses = [...guesses, guess]
+    const fullGuess = buildFullGuess(currentGuess.toLowerCase(), target, revealedPositions)
+    const newGuesses = [...guesses, fullGuess]
     setGuesses(newGuesses)
     setCurrentGuess('')
 
-    if (guess === target) {
+    if (fullGuess === target) {
       setGameStatus('won')
     } else if (newGuesses.length >= MAX_GUESSES) {
       setGameStatus('lost')
     }
-  }, [currentGuess, guesses, target, wordLength, gameStatus])
+  }, [currentGuess, guesses, target, inputLength, gameStatus, revealedPositions])
 
   const addLetter = useCallback(
     (letter: string) => {
       if (gameStatus !== 'playing') return
-      if (currentGuess.length < wordLength) {
-        setCurrentGuess((prev) => prev + letter.toLowerCase())
+      if (currentGuess.length >= inputLength) return
+
+      const l = letter.toLowerCase()
+
+      // Find the visual cursor position (next non-revealed slot in the full word)
+      let visualPos = wordLength
+      let typed = 0
+      for (let i = 0; i < wordLength; i++) {
+        if (revealedPositions.has(i)) continue
+        if (typed === currentGuess.length) {
+          visualPos = i
+          break
+        }
+        typed++
       }
+
+      // If the user types a letter matching a revealed position just before
+      // the cursor, consume it silently so typing the full word feels natural
+      for (let i = visualPos - 1; i >= 0 && revealedPositions.has(i); i--) {
+        if (target[i] === l) return
+      }
+
+      setCurrentGuess((prev) => prev + l)
     },
-    [currentGuess, wordLength, gameStatus]
+    [currentGuess, inputLength, gameStatus, revealedPositions, target, wordLength]
   )
 
   const deleteLetter = useCallback(() => {
@@ -104,8 +143,13 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   }, [gameStatus])
 
   const evaluatedGuesses: EvaluatedLetter[][] = guesses.map((g) =>
-    evaluateGuess(g, target)
+    evaluateGuess(g, target, revealedPositions)
   )
+
+  // Build the full display guess (with revealed letters inserted) for the current row
+  const displayGuess = useMemo(() => {
+    return buildFullGuess(currentGuess, target, revealedPositions)
+  }, [currentGuess, target, revealedPositions])
 
   const generateShareText = useCallback(() => {
     const wordIdx = getWordIndex(wordEntry)
@@ -118,7 +162,8 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
     const grid = evaluatedGuesses
       .map((row) =>
         row
-          .map(({ state }) => {
+          .map(({ letter, state }) => {
+            if (letter === ' ') return '  '
             switch (state) {
               case 'correct': return '🟩'
               case 'present': return '🟨'
@@ -139,9 +184,11 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
     wordLength,
     guesses,
     currentGuess,
+    displayGuess,
     gameStatus,
     evaluatedGuesses,
     shakeRow,
+    revealedPositions,
     addLetter,
     deleteLetter,
     submitGuess,

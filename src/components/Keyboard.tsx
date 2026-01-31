@@ -3,6 +3,7 @@ import { getKeyboardStates, type LetterState } from '../lib/utils'
 interface KeyboardProps {
   guesses: string[]
   target: string
+  revealedPositions: Set<number>
   onKey: (key: string) => void
   onEnter: () => void
   onDelete: () => void
@@ -19,17 +20,19 @@ const stateColors: Record<LetterState | 'unused', string> = {
   present: 'bg-yellow-500',
   absent: 'bg-neutral-700',
   empty: 'bg-neutral-500',
+  revealed: 'bg-neutral-700',
   unused: 'bg-neutral-500',
 }
 
 export default function Keyboard({
   guesses,
   target,
+  revealedPositions,
   onKey,
   onEnter,
   onDelete,
 }: KeyboardProps) {
-  const keyStates = getKeyboardStates(guesses, target)
+  const keyStates = getKeyboardStates(guesses, target, revealedPositions)
 
   function handleClick(key: string) {
     if (key === 'Enter') {

@@ -23,6 +23,7 @@ export default function Game({ wordEntry, mode }: GameProps) {
     gameStatus,
     evaluatedGuesses,
     shakeRow,
+    revealedPositions,
     addLetter,
     deleteLetter,
     submitGuess,
@@ -78,7 +79,14 @@ export default function Game({ wordEntry, mode }: GameProps) {
     <div className="flex flex-col items-center gap-4 sm:gap-6 w-full">
       <div className="text-sm text-neutral-500">
         {wordLength} letters &middot; {MAX_GUESSES} guesses
-        {!isDaily && <span className="ml-2 text-yellow-500">&middot; random</span>}
+        {!isDaily && (
+          <a
+            href="#/random"
+            className="ml-2 text-yellow-500 hover:text-yellow-400 transition-colors"
+          >
+            &middot; random
+          </a>
+        )}
       </div>
 
       <Grid
@@ -86,6 +94,8 @@ export default function Game({ wordEntry, mode }: GameProps) {
         currentGuess={currentGuess}
         wordLength={wordLength}
         shakeRow={shakeRow}
+        revealedPositions={revealedPositions}
+        target={target}
       />
 
       <HintPanel
@@ -97,6 +107,7 @@ export default function Game({ wordEntry, mode }: GameProps) {
       <Keyboard
         guesses={guesses}
         target={target}
+        revealedPositions={revealedPositions}
         onKey={addLetter}
         onEnter={submitGuess}
         onDelete={deleteLetter}
@@ -108,6 +119,7 @@ export default function Game({ wordEntry, mode }: GameProps) {
           target={target}
           guessCount={guesses.length}
           maxGuesses={MAX_GUESSES}
+          wordEntry={todayWord}
           onShare={handleShare}
           onRandomWord={startRandomGame}
         />

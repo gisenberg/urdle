@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import {
   getTodayWord,
   getTodayKey,
+  getRandomWord,
   evaluateGuess,
   MAX_GUESSES,
   type WordEntry,
@@ -30,8 +31,10 @@ function saveState(key: string, state: SavedState) {
 }
 
 export function useGame() {
-  const todayWord: WordEntry = getTodayWord()
-  const target = todayWord.word.toLowerCase()
+  const [wordEntry, setWordEntry] = useState<WordEntry>(getTodayWord)
+  const [isDaily, setIsDaily] = useState(true)
+
+  const target = wordEntry.word.toLowerCase()
   const wordLength = target.length
   const dateKey = getTodayKey()
 
@@ -40,21 +43,32 @@ export function useGame() {
   const [gameStatus, setGameStatus] = useState<GameStatus>('playing')
   const [shakeRow, setShakeRow] = useState(false)
 
-  // Load saved state on mount
+  // Load saved state on mount (daily only)
   useEffect(() => {
+    if (!isDaily) return
     const saved = loadState(dateKey)
     if (saved) {
       setGuesses(saved.guesses)
       setGameStatus(saved.gameStatus)
     }
-  }, [dateKey])
+  }, [dateKey, isDaily])
 
-  // Save state on changes
+  // Save state on changes (daily only)
   useEffect(() => {
+    if (!isDaily) return
     if (guesses.length > 0 || gameStatus !== 'playing') {
       saveState(dateKey, { guesses, gameStatus })
     }
-  }, [guesses, gameStatus, dateKey])
+  }, [guesses, gameStatus, dateKey, isDaily])
+
+  const startRandomGame = useCallback(() => {
+    const newWord = getRandomWord(wordEntry.word)
+    setWordEntry(newWord)
+    setIsDaily(false)
+    setGuesses([])
+    setCurrentGuess('')
+    setGameStatus('playing')
+  }, [wordEntry.word])
 
   const submitGuess = useCallback(() => {
     if (gameStatus !== 'playing') return
@@ -118,7 +132,8 @@ export function useGame() {
   }, [evaluatedGuesses, guesses.length, gameStatus])
 
   return {
-    todayWord,
+    todayWord: wordEntry,
+    isDaily,
     target,
     wordLength,
     guesses,
@@ -130,5 +145,6 @@ export function useGame() {
     deleteLetter,
     submitGuess,
     generateShareText,
+    startRandomGame,
   }
 }

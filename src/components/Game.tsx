@@ -9,6 +9,7 @@ import GameOver from './GameOver'
 export default function Game() {
   const {
     todayWord,
+    isDaily,
     target,
     wordLength,
     guesses,
@@ -20,6 +21,7 @@ export default function Game() {
     deleteLetter,
     submitGuess,
     generateShareText,
+    startRandomGame,
   } = useGame()
 
   const [showModal, setShowModal] = useState(false)
@@ -29,6 +31,8 @@ export default function Game() {
     if (gameStatus !== 'playing') {
       const timer = setTimeout(() => setShowModal(true), 1500)
       return () => clearTimeout(timer)
+    } else {
+      setShowModal(false)
     }
   }, [gameStatus])
 
@@ -68,6 +72,7 @@ export default function Game() {
     <div className="flex flex-col items-center gap-4 sm:gap-6 w-full">
       <div className="text-sm text-neutral-500">
         {wordLength} letters &middot; {MAX_GUESSES} guesses
+        {!isDaily && <span className="ml-2 text-yellow-500">&middot; random</span>}
       </div>
 
       <Grid
@@ -98,6 +103,7 @@ export default function Game() {
           guessCount={guesses.length}
           maxGuesses={MAX_GUESSES}
           onShare={handleShare}
+          onRandomWord={startRandomGame}
         />
       )}
     </div>

@@ -32,6 +32,14 @@ export function getTodayWord(): WordEntry {
   return words[index] as WordEntry
 }
 
+export function getRandomWord(exclude?: string): WordEntry {
+  let entry: WordEntry
+  do {
+    entry = words[Math.floor(Math.random() * words.length)] as WordEntry
+  } while (exclude && entry.word === exclude)
+  return entry
+}
+
 export function evaluateGuess(guess: string, target: string): EvaluatedLetter[] {
   const result: EvaluatedLetter[] = Array.from(guess, (letter) => ({
     letter,

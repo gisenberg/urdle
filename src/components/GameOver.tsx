@@ -6,6 +6,7 @@ interface GameOverProps {
   guessCount: number
   maxGuesses: number
   onShare: () => void
+  onRandomWord: () => void
 }
 
 export default function GameOver({
@@ -14,6 +15,7 @@ export default function GameOver({
   guessCount,
   maxGuesses,
   onShare,
+  onRandomWord,
 }: GameOverProps) {
   if (status === 'playing') return null
 
@@ -35,12 +37,20 @@ export default function GameOver({
           </p>
         )}
 
-        <button
-          onClick={onShare}
-          className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-        >
-          Share Results
-        </button>
+        <div className="flex gap-3 justify-center">
+          <button
+            onClick={onShare}
+            className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            Share Results
+          </button>
+          <button
+            onClick={onRandomWord}
+            className="bg-neutral-600 hover:bg-neutral-500 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            Random Word
+          </button>
+        </div>
       </div>
     </div>
   )

@@ -15,7 +15,6 @@ interface GameProps {
 export default function Game({ wordEntry, mode }: GameProps) {
   const {
     todayWord,
-    isDaily,
     target,
     wordLength,
     guesses,
@@ -81,18 +80,6 @@ export default function Game({ wordEntry, mode }: GameProps) {
 
   return (
     <div className="flex flex-col items-center gap-4 sm:gap-6 w-full">
-      <div className="text-sm text-neutral-500">
-        {wordLength} letters &middot; {MAX_GUESSES} guesses
-        {!isDaily && (
-          <a
-            href="#/random"
-            className="ml-2 text-yellow-500 hover:text-yellow-400 transition-colors"
-          >
-            &middot; random
-          </a>
-        )}
-      </div>
-
       <Grid
         evaluatedGuesses={evaluatedGuesses}
         currentGuess={currentGuess}

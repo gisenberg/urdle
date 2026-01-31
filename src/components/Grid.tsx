@@ -66,6 +66,19 @@ export default function Grid({
     rows.push(emptyRow)
   }
 
+  // Find the cursor position in the current guess row (first empty non-revealed tile)
+  const currentRowIndex = evaluatedGuesses.length
+  let cursorPos = -1
+  if (currentRowIndex < MAX_GUESSES) {
+    const currentRow = rows[currentRowIndex]
+    for (let i = 0; i < currentRow.length; i++) {
+      if (currentRow[i].state === 'empty' && currentRow[i].letter === '') {
+        cursorPos = i
+        break
+      }
+    }
+  }
+
   const tileSize: 'sm' | 'md' | 'lg' =
     wordLength >= 10 ? 'sm' : wordLength >= 7 ? 'md' : 'lg'
 
@@ -75,8 +88,9 @@ export default function Grid({
         <Row
           key={i}
           letters={row}
-          shake={shakeRow && i === evaluatedGuesses.length}
+          shake={shakeRow && i === currentRowIndex}
           tileSize={tileSize}
+          cursorIndex={i === currentRowIndex ? cursorPos : -1}
         />
       ))}
     </div>

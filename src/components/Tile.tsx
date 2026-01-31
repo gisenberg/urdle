@@ -5,6 +5,7 @@ interface TileProps {
   state: LetterState
   delay?: number
   size?: 'sm' | 'md' | 'lg'
+  isCursor?: boolean
 }
 
 const stateColors: Record<LetterState, string> = {
@@ -27,7 +28,7 @@ const spaceSizeClasses: Record<string, string> = {
   lg: 'w-4 h-12 sm:w-5 sm:h-14',
 }
 
-export default function Tile({ letter, state, delay = 0, size = 'lg' }: TileProps) {
+export default function Tile({ letter, state, delay = 0, size = 'lg', isCursor = false }: TileProps) {
   // Space tiles render as narrow gaps
   if (letter === ' ') {
     return <div className={spaceSizeClasses[size]} />
@@ -45,6 +46,7 @@ export default function Tile({ letter, state, delay = 0, size = 'lg' }: TileProp
         ${stateColors[state]}
         ${hasLetter && !isRevealed ? 'border-neutral-400 tile-pop' : ''}
         ${isRevealed ? 'tile-flip text-white' : 'text-white'}
+        ${isCursor ? 'border-neutral-300 tile-cursor' : ''}
       `}
       style={isRevealed ? { animationDelay: `${delay * 100}ms` } : undefined}
     >

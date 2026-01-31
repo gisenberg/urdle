@@ -38,3 +38,12 @@ body {
 .row-shake {
   animation: shake 0.3s ease-in-out;
 }
+
+@keyframes cursor-pulse {
+  0%, 100% { border-color: rgb(212 212 212); }
+  50% { border-color: rgb(115 115 115); }
+}
+
+.tile-cursor {
+  animation: cursor-pulse 1.2s ease-in-out infinite;
+}

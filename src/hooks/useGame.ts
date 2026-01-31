@@ -18,13 +18,17 @@ export type GameStatus = 'playing' | 'won' | 'lost'
 interface SavedState {
   guesses: string[]
   gameStatus: GameStatus
+  target?: string
 }
 
-function loadState(key: string): SavedState | null {
+function loadState(key: string, target: string): SavedState | null {
   try {
     const raw = localStorage.getItem(`urdle-${key}`)
     if (!raw) return null
-    return JSON.parse(raw) as SavedState
+    const state = JSON.parse(raw) as SavedState
+    // Discard saved state if the target word changed (e.g. word pool was updated)
+    if (state.target && state.target !== target) return null
+    return state
   } catch {
     return null
   }
@@ -66,18 +70,18 @@ export function useGame(wordEntry: WordEntry, mode: GameMode) {
   // Load saved state on mount (daily only)
   useEffect(() => {
     if (!isDaily) return
-    const saved = loadState(dateKey)
+    const saved = loadState(dateKey, target)
     if (saved) {
       setGuesses(saved.guesses)
       setGameStatus(saved.gameStatus)
     }
-  }, [dateKey, isDaily])
+  }, [dateKey, isDaily, target])
 
   // Save state on changes (daily only)
   useEffect(() => {
     if (!isDaily) return
     if (guesses.length > 0 || gameStatus !== 'playing') {
-      saveState(dateKey, { guesses, gameStatus })
+      saveState(dateKey, { guesses, gameStatus, target })
     }
   }, [guesses, gameStatus, dateKey, isDaily])
 

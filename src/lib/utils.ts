@@ -95,13 +95,10 @@ export function getKeyboardStates(
 ): Record<string, LetterState> {
   const states: Record<string, LetterState> = {}
 
-  // Pre-mark revealed vowels as "revealed" on keyboard (dimmed/used look)
-  if (revealedPositions) {
-    for (const pos of revealedPositions) {
-      const ch = target[pos]?.toLowerCase()
-      if (ch && ch !== ' ') {
-        states[ch] = 'revealed'
-      }
+  // If target is 8+ chars, dim all vowels on keyboard (not just ones in the target)
+  if (revealedPositions && target.length > 7) {
+    for (const v of VOWELS) {
+      states[v] = 'revealed'
     }
   }
 

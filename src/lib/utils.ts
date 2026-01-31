@@ -4,6 +4,7 @@ export interface WordEntry {
   word: string
   definitions: string[]
   example?: string
+  quality?: number
 }
 
 export type LetterState = 'correct' | 'present' | 'absent' | 'empty' | 'revealed'
@@ -41,15 +42,42 @@ export function getTodayKey(): string {
   return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
 }
 
+// Pre-build a weighted word list: quality 3 appears 5x, quality 2 appears 2x, quality 1 appears 1x
+const weightedWords: WordEntry[] = []
+for (const w of words) {
+  const q = (w as WordEntry).quality ?? 2
+  const repeats = q === 3 ? 5 : q === 2 ? 2 : 1
+  for (let i = 0; i < repeats; i++) {
+    weightedWords.push(w as WordEntry)
+  }
+}
+
+// Deterministic shuffle seeded from word content so daily order is stable
+function seededShuffle(arr: WordEntry[]): WordEntry[] {
+  const result = [...arr]
+  let seed = 0
+  for (const w of words) {
+    for (let i = 0; i < w.word.length; i++) seed = (seed * 31 + w.word.charCodeAt(i)) | 0
+  }
+  for (let i = result.length - 1; i > 0; i--) {
+    seed = (seed * 1103515245 + 12345) | 0
+    const j = ((seed >>> 16) & 0x7fff) % (i + 1);
+    [result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
+const dailyPool = seededShuffle(weightedWords)
+
 export function getTodayWord(): WordEntry {
-  const index = getDayIndex() % words.length
-  return words[index] as WordEntry
+  const index = getDayIndex() % dailyPool.length
+  return dailyPool[index]
 }
 
 export function getRandomWord(exclude?: string): WordEntry {
   let entry: WordEntry
   do {
-    entry = words[Math.floor(Math.random() * words.length)] as WordEntry
+    entry = weightedWords[Math.floor(Math.random() * weightedWords.length)]
   } while (exclude && entry.word === exclude)
   return entry
 }

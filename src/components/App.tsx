@@ -72,7 +72,7 @@ export default function App() {
         </p>
       </header>
 
-      <main className="flex-1 flex flex-col items-center justify-center py-4 sm:py-6 px-2">
+      <main className="flex flex-col items-center py-2 sm:py-3 px-2">
         <Game key={route.wordEntry.word} wordEntry={route.wordEntry} mode={route.mode} />
       </main>
     </div>
